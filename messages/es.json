@@ -6,5 +6,21 @@
   "home": {
     "heading": "Ingeniero de Software Senior",
     "subheading": "19+ anios de experiencia construyendo software escalable y de alta calidad"
+  },
+  "nav": {
+    "about": "Acerca",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "sections": {
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "placeholders": {
+    "comingSoon": "Contenido proximamente."
   }
 }

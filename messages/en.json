@@ -6,5 +6,21 @@
   "home": {
     "heading": "Senior Software Engineer",
     "subheading": "19+ years of experience building scalable, high-quality software"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "sections": {
+    "experience": "Experience",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "placeholders": {
+    "comingSoon": "Content coming soon."
   }
 }
