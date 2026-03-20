@@ -50,7 +50,7 @@ export default function MobileDrawer({
       )}
 
       <div
-        className={`fixed top-0 right-0 z-50 h-full w-72 transform bg-white shadow-xl transition-transform duration-300 ease-in-out lg:hidden dark:bg-gray-950 ${
+        className={`fixed top-0 right-0 z-50 h-auto w-72 transform bg-white shadow-xl transition-transform duration-300 ease-in-out lg:hidden dark:bg-gray-950 ${
           open ? 'translate-x-0' : 'translate-x-full'
         }`}
         role="dialog"
