@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import Header from '@/components/Header';
 import '../globals.css';
 
 const inter = Inter({
@@ -45,6 +46,7 @@ export default async function RootLayout({ children, params }: Props) {
     <html lang={lang} className={`${inter.variable} ${robotoMono.variable}`}>
       <body className="font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
+          <Header />
           {children}
         </NextIntlClientProvider>
       </body>
