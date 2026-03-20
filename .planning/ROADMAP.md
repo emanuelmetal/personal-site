@@ -217,7 +217,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Project Setup & Foundation | 1/1 | Complete   | 2026-03-20 |
-| 2. Layout & Navigation | 1/1 | Complete   | 2026-03-20 |
+| 2. Layout & Navigation | 1/1 | Complete    | 2026-03-20 |
 | 3. Theme System | 0/? | Not started | - |
 | 4. Internationalization | 0/? | Not started | - |
 | 5. Core Content Sections | 0/? | Not started | - |
