@@ -64,8 +64,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Performance
 
-- [ ] **PERF-01**: Images are optimized using Next.js Image component
-- [ ] **PERF-02**: Fonts are optimized using next/font (no external Google Fonts)
+- [x] **PERF-01**: Images are optimized using Next.js Image component
+- [x] **PERF-02**: Fonts are optimized using next/font (no external Google Fonts)
 - [ ] **PERF-03**: Initial JavaScript bundle is under 150KB
 - [ ] **PERF-04**: First Contentful Paint is under 1.5 seconds
 - [ ] **PERF-05**: Page is fully interactive within 3 seconds
@@ -154,8 +154,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | THEME-03 | Phase 3 | Pending |
 | THEME-04 | Phase 3 | Pending |
 | THEME-05 | Phase 3 | Pending |
-| PERF-01 | Phase 1 | Pending |
-| PERF-02 | Phase 1 | Pending |
+| PERF-01 | Phase 1 | Complete |
+| PERF-02 | Phase 1 | Complete |
 | PERF-03 | Phase 8 | Pending |
 | PERF-04 | Phase 8 | Pending |
 | PERF-05 | Phase 8 | Pending |
