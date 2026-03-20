@@ -123,53 +123,64 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| NAV-01 | TBD | Pending |
-| NAV-02 | TBD | Pending |
-| NAV-03 | TBD | Pending |
-| NAV-04 | TBD | Pending |
-| ABOUT-01 | TBD | Pending |
-| ABOUT-02 | TBD | Pending |
-| EXP-01 | TBD | Pending |
-| EXP-02 | TBD | Pending |
-| EXP-03 | TBD | Pending |
-| EXP-04 | TBD | Pending |
-| SKILL-01 | TBD | Pending |
-| SKILL-02 | TBD | Pending |
-| SKILL-03 | TBD | Pending |
-| PORT-01 | TBD | Pending |
-| PORT-02 | TBD | Pending |
-| PORT-03 | TBD | Pending |
-| CONT-01 | TBD | Pending |
-| CONT-02 | TBD | Pending |
-| CONT-03 | TBD | Pending |
-| CONT-04 | TBD | Pending |
-| I18N-01 | TBD | Pending |
-| I18N-02 | TBD | Pending |
-| I18N-03 | TBD | Pending |
-| I18N-04 | TBD | Pending |
-| I18N-05 | TBD | Pending |
-| I18N-06 | TBD | Pending |
-| THEME-01 | TBD | Pending |
-| THEME-02 | TBD | Pending |
-| THEME-03 | TBD | Pending |
-| THEME-04 | TBD | Pending |
-| THEME-05 | TBD | Pending |
-| PERF-01 | TBD | Pending |
-| PERF-02 | TBD | Pending |
-| PERF-03 | TBD | Pending |
-| PERF-04 | TBD | Pending |
-| PERF-05 | TBD | Pending |
-| QUAL-01 | TBD | Pending |
-| QUAL-02 | TBD | Pending |
-| QUAL-03 | TBD | Pending |
-| QUAL-04 | TBD | Pending |
-| QUAL-05 | TBD | Pending |
+| NAV-01 | Phase 2 | Pending |
+| NAV-02 | Phase 2 | Pending |
+| NAV-03 | Phase 2 | Pending |
+| NAV-04 | Phase 2 | Pending |
+| ABOUT-01 | Phase 5 | Pending |
+| ABOUT-02 | Phase 5 | Pending |
+| EXP-01 | Phase 6 | Pending |
+| EXP-02 | Phase 6 | Pending |
+| EXP-03 | Phase 6 | Pending |
+| EXP-04 | Phase 6 | Pending |
+| SKILL-01 | Phase 5 | Pending |
+| SKILL-02 | Phase 5 | Pending |
+| SKILL-03 | Phase 5 | Pending |
+| PORT-01 | Phase 7 | Pending |
+| PORT-02 | Phase 7 | Pending |
+| PORT-03 | Phase 7 | Pending |
+| CONT-01 | Phase 5 | Pending |
+| CONT-02 | Phase 5 | Pending |
+| CONT-03 | Phase 5 | Pending |
+| CONT-04 | Phase 5 | Pending |
+| I18N-01 | Phase 4 | Pending |
+| I18N-02 | Phase 4 | Pending |
+| I18N-03 | Phase 4 | Pending |
+| I18N-04 | Phase 4 | Pending |
+| I18N-05 | Phase 4 | Pending |
+| I18N-06 | Phase 4 | Pending |
+| THEME-01 | Phase 3 | Pending |
+| THEME-02 | Phase 3 | Pending |
+| THEME-03 | Phase 3 | Pending |
+| THEME-04 | Phase 3 | Pending |
+| THEME-05 | Phase 3 | Pending |
+| PERF-01 | Phase 1 | Pending |
+| PERF-02 | Phase 1 | Pending |
+| PERF-03 | Phase 8 | Pending |
+| PERF-04 | Phase 8 | Pending |
+| PERF-05 | Phase 8 | Pending |
+| QUAL-01 | Phase 9 | Pending |
+| QUAL-02 | Phase 9 | Pending |
+| QUAL-03 | Phase 9 | Pending |
+| QUAL-04 | Phase 9 | Pending |
+| QUAL-05 | Phase 9 | Pending |
 
 **Coverage:**
 - v1 requirements: 41 total
-- Mapped to phases: 0 (roadmap pending)
-- Unmapped: 41
+- Mapped to phases: 41 (100% coverage)
+- Unmapped: 0
+
+**Phase Distribution:**
+- Phase 1: 2 requirements (PERF-01, PERF-02)
+- Phase 2: 4 requirements (NAV-01 to NAV-04)
+- Phase 3: 5 requirements (THEME-01 to THEME-05)
+- Phase 4: 6 requirements (I18N-01 to I18N-06)
+- Phase 5: 9 requirements (ABOUT-01, ABOUT-02, SKILL-01 to SKILL-03, CONT-01 to CONT-04)
+- Phase 6: 4 requirements (EXP-01 to EXP-04)
+- Phase 7: 3 requirements (PORT-01 to PORT-03)
+- Phase 8: 3 requirements (PERF-03 to PERF-05)
+- Phase 9: 5 requirements (QUAL-01 to QUAL-05)
 
 ---
 *Requirements defined: 2026-03-20*
-*Last updated: 2026-03-20 after initial definition*
+*Last updated: 2026-03-20 with phase traceability*
