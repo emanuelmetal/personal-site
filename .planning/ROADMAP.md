@@ -8,7 +8,7 @@
 ## Phases
 
 - [x] **Phase 1: Project Setup & Foundation** - Next.js 16 App Router project with TypeScript, Tailwind CSS, and optimized asset loading (completed 2026-03-20)
-- [ ] **Phase 2: Layout & Navigation** - Single-page layout with sticky navigation and smooth scroll behavior
+- [x] **Phase 2: Layout & Navigation** - Single-page layout with sticky navigation and smooth scroll behavior (completed 2026-03-20)
 - [ ] **Phase 3: Theme System** - Dark/light mode toggle with persistence and system preference detection
 - [ ] **Phase 4: Internationalization** - Bilingual support with URL-based locale switching (EN/ES)
 - [ ] **Phase 5: Core Content Sections** - About, Skills, and Contact sections with placeholder content
@@ -54,10 +54,10 @@ Plans:
 4. Layout adapts responsively on mobile (320px), tablet (768px), and desktop (1440px) viewports
 5. Section IDs match navigation anchor targets for reliable scroll behavior
 
-**Plans:** 1 plan
+**Plans:** 1/1 plans complete
 
 Plans:
-- [ ] 02-01-PLAN.md — Build single-page layout with sticky header, mobile drawer, semantic sections, and smooth scroll
+- [x] 02-01-PLAN.md — Build single-page layout with sticky header, mobile drawer, semantic sections, and smooth scroll
 
 ---
 
@@ -217,7 +217,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Project Setup & Foundation | 1/1 | Complete   | 2026-03-20 |
-| 2. Layout & Navigation | 0/1 | Planning | - |
+| 2. Layout & Navigation | 1/1 | Complete   | 2026-03-20 |
 | 3. Theme System | 0/? | Not started | - |
 | 4. Internationalization | 0/? | Not started | - |
 | 5. Core Content Sections | 0/? | Not started | - |

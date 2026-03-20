@@ -9,10 +9,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Navigation & Layout
 
-- [ ] **NAV-01**: User can view single-page layout with semantic section divisions
-- [ ] **NAV-02**: User sees sticky navigation bar that remains visible while scrolling
-- [ ] **NAV-03**: User can click navigation links to smoothly scroll to target sections
-- [ ] **NAV-04**: User experiences responsive design across mobile, tablet, and desktop devices
+- [x] **NAV-01**: User can view single-page layout with semantic section divisions
+- [x] **NAV-02**: User sees sticky navigation bar that remains visible while scrolling
+- [x] **NAV-03**: User can click navigation links to smoothly scroll to target sections
+- [x] **NAV-04**: User experiences responsive design across mobile, tablet, and desktop devices
 
 ### Content - About
 
@@ -123,10 +123,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| NAV-01 | Phase 2 | Pending |
-| NAV-02 | Phase 2 | Pending |
-| NAV-03 | Phase 2 | Pending |
-| NAV-04 | Phase 2 | Pending |
+| NAV-01 | Phase 2 | Complete |
+| NAV-02 | Phase 2 | Complete |
+| NAV-03 | Phase 2 | Complete |
+| NAV-04 | Phase 2 | Complete |
 | ABOUT-01 | Phase 5 | Pending |
 | ABOUT-02 | Phase 5 | Pending |
 | EXP-01 | Phase 6 | Pending |
