@@ -33,7 +33,10 @@
 4. TypeScript compiles without errors in strict mode
 5. Tailwind CSS utilities are available and purge is configured
 
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
@@ -51,7 +54,10 @@
 4. Layout adapts responsively on mobile (320px), tablet (768px), and desktop (1440px) viewports
 5. Section IDs match navigation anchor targets for reliable scroll behavior
 
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
@@ -69,7 +75,10 @@
 4. Theme changes apply instantly without page reload or flash of unstyled content
 5. All content sections (text, backgrounds, borders) adapt to selected theme
 
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
@@ -88,7 +97,10 @@
 5. Browser language preference is detected on first visit to set initial language
 6. Switching languages preserves scroll position in current section
 
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
@@ -108,7 +120,10 @@
 6. User can click LinkedIn and GitHub profile links that open in new tabs
 7. All social profile links are functional and open correct destinations
 
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
@@ -126,7 +141,10 @@
 4. Timeline adapts responsively: vertical single-column on mobile, enhanced layout on desktop
 5. User can scan 19 years of experience quickly without overwhelming visual complexity
 
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
@@ -144,7 +162,10 @@
 4. Project cards are visually consistent and professionally styled
 5. Portfolio section works on mobile and desktop with responsive grid layout
 
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
@@ -162,7 +183,10 @@
 4. No layout shift occurs during page load (CLS < 0.1)
 5. Production build deploys successfully to Vercel with automatic optimization
 
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
@@ -181,7 +205,10 @@
 5. Focus indicators are visible on all interactive elements (navigation links, theme toggle, language switcher)
 6. Screen reader announces section changes when navigating via smooth scroll
 
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
