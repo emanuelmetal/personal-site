@@ -36,7 +36,7 @@
 **Plans:** 1/1 plans complete
 
 Plans:
-- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
+- [x] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
 
 ---
 
@@ -57,7 +57,7 @@ Plans:
 **Plans:** 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
+- [ ] 02-01-PLAN.md — Build single-page layout with sticky header, mobile drawer, semantic sections, and smooth scroll
 
 ---
 
@@ -217,7 +217,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Project Setup & Foundation | 1/1 | Complete   | 2026-03-20 |
-| 2. Layout & Navigation | 0/? | Not started | - |
+| 2. Layout & Navigation | 0/1 | Planning | - |
 | 3. Theme System | 0/? | Not started | - |
 | 4. Internationalization | 0/? | Not started | - |
 | 5. Core Content Sections | 0/? | Not started | - |
