@@ -12,13 +12,13 @@ Recruiters and customers can immediately understand who I am, what I've built, a
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Single-page layout with smooth scroll navigation — Validated in Phase 2: Layout & Navigation
+- [x] Sticky navigation bar that scrolls to sections — Validated in Phase 2: Layout & Navigation
+- [x] Five main sections: About, Experience, Skills, Portfolio, Contact — Validated in Phase 2: Layout & Navigation
+- [x] Responsive design for desktop, tablet, and mobile — Validated in Phase 2: Layout & Navigation
 
 ### Active
 
-- [ ] Single-page layout with smooth scroll navigation
-- [ ] Sticky navigation bar that scrolls to sections
-- [ ] Five main sections: About, Experience, Skills, Portfolio, Contact
 - [ ] Work history presented as chronological timeline with key roles and achievements
 - [ ] Portfolio section showcasing professional work projects
 - [ ] Internationalization support (English and Spanish)
@@ -26,7 +26,6 @@ Recruiters and customers can immediately understand who I am, what I've built, a
 - [ ] Light and dark mode toggle
 - [ ] Theme preference persists across visits
 - [ ] Modern corporate design aesthetic (polished, professional)
-- [ ] Responsive design for desktop, tablet, and mobile
 - [ ] Placeholder content for initial build (real content added later)
 - [ ] Optimized for Vercel/Netlify deployment
 
@@ -58,11 +57,16 @@ Recruiters and customers can immediately understand who I am, what I've built, a
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Single-page design with sticky nav | Simplifies navigation, common portfolio pattern | — Pending |
+| Single-page design with sticky nav | Simplifies navigation, common portfolio pattern | ✓ Complete (Phase 2) |
 | Timeline format for work history | 19 years of experience needs chronological structure | — Pending |
 | Placeholder content first | Decouple site building from content writing | — Pending |
-| Next.js + Tailwind | Modern stack, great DX, Vercel-optimized | — Pending |
+| Next.js + Tailwind | Modern stack, great DX, Vercel-optimized | ✓ Complete (Phase 1) |
 | Modern corporate aesthetic | Appeals to enterprise recruiters, shows professionalism | — Pending |
+| Minimal desktop nav with mobile hamburger | Saves vertical space, familiar mobile UX | ✓ Complete (Phase 2) |
+| Native CSS smooth scroll | Zero JavaScript, browser-native performance | ✓ Complete (Phase 2) |
+| Content-based section heights | Natural for varying content amounts | ✓ Complete (Phase 2) |
 
 ---
-*Last updated: 2026-03-20 after initialization*
+*Last updated: 2026-03-20 after Phase 2 completion*
+
+**Current State:** Phase 2 complete — Single-page layout with sticky navigation, five semantic sections, and responsive design across all breakpoints established.
