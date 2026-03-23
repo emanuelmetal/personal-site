@@ -50,11 +50,6 @@ export default async function RootLayout({ children, params }: Props) {
       className={`${inter.variable} ${robotoMono.variable}`}
     >
       <body className="bg-white font-sans text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100">
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `document.documentElement.classList.add('disable-transitions');setTimeout(()=>document.documentElement.classList.remove('disable-transitions'),100);`,
-          }}
-        />
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
             <Header />
