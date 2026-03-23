@@ -97,10 +97,11 @@ Plans:
 5. Browser language preference is detected on first visit to set initial language
 6. Switching languages preserves scroll position in current section
 
-**Plans:** 1 plan
+**Plans:** 2 plans
 
 Plans:
 - [x] 04-01-PLAN.md — LanguageSwitcher component, navigation wrapper, translation files, Header/MobileDrawer integration
+- [ ] 04-02-PLAN.md — Gap closure: fix dark mode flash and scroll position loss on language switch
 
 ---
 
@@ -219,7 +220,7 @@ Plans:
 | 1. Project Setup & Foundation | 1/1 | Complete   | 2026-03-20 |
 | 2. Layout & Navigation | 1/1 | Complete    | 2026-03-20 |
 | 3. Theme System | 0/1 | Planning | - |
-| 4. Internationalization | 0/1 | Planning | - |
+| 4. Internationalization | 1/2 | Executing | - |
 | 5. Core Content Sections | 0/? | Not started | - |
 | 6. Experience Timeline | 0/? | Not started | - |
 | 7. Portfolio Showcase | 0/? | Not started | - |
