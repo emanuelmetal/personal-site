@@ -100,7 +100,7 @@ Plans:
 **Plans:** 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
+- [ ] 04-01-PLAN.md — LanguageSwitcher component, navigation wrapper, translation files, Header/MobileDrawer integration
 
 ---
 
@@ -219,7 +219,7 @@ Plans:
 | 1. Project Setup & Foundation | 1/1 | Complete   | 2026-03-20 |
 | 2. Layout & Navigation | 1/1 | Complete    | 2026-03-20 |
 | 3. Theme System | 0/1 | Planning | - |
-| 4. Internationalization | 0/? | Not started | - |
+| 4. Internationalization | 0/1 | Planning | - |
 | 5. Core Content Sections | 0/? | Not started | - |
 | 6. Experience Timeline | 0/? | Not started | - |
 | 7. Portfolio Showcase | 0/? | Not started | - |
