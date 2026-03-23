@@ -15,17 +15,7 @@ export function LanguageSwitcher() {
     if (newLocale === currentLocale) return;
 
     const hash = window.location.hash;
-    router.push(pathname, { locale: newLocale });
-
-    if (hash) {
-      setTimeout(() => {
-        window.location.hash = hash;
-        const element = document.querySelector(hash);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      }, 150);
-    }
+    router.push(`${pathname}${hash}`, { locale: newLocale });
   };
 
   return (
