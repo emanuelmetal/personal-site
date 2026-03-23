@@ -14,6 +14,13 @@
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
+  "theme": {
+    "toggleLabel": "Theme: {current}. Click to cycle.",
+    "cycleHint": "Click to cycle: Light, Dark, System",
+    "light": "Light mode",
+    "dark": "Dark mode",
+    "system": "System preference"
+  },
   "sections": {
     "experience": "Experience",
     "skills": "Skills",

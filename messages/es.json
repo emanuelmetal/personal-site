@@ -14,6 +14,13 @@
     "portfolio": "Portafolio",
     "contact": "Contacto"
   },
+  "theme": {
+    "toggleLabel": "Tema: {current}. Haz clic para cambiar.",
+    "cycleHint": "Haz clic para cambiar: Claro, Oscuro, Sistema",
+    "light": "Modo claro",
+    "dark": "Modo oscuro",
+    "system": "Preferencia del sistema"
+  },
   "sections": {
     "experience": "Experiencia",
     "skills": "Habilidades",

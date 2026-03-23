@@ -5,6 +5,23 @@
   --font-mono: var(--font-roboto-mono), ui-monospace, monospace;
 }
 
+/* Dark mode variant configuration for next-themes class strategy */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Smooth theme transitions (D-11: 150ms, D-12: color properties only) */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    transition-property: color, background-color, border-color;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+/* Disable transitions on initial page load (D-13) */
+html.disable-transitions * {
+  transition: none !important;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 3.5rem; /* 56px = h-14 mobile nav height */
