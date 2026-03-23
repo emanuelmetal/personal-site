@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import MobileDrawer from './MobileDrawer';
 import { ThemeToggle } from './ThemeToggle';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 const NAV_ITEMS = [
   'about',
@@ -73,8 +74,9 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <div className="hidden lg:flex">
+          <div className="hidden lg:flex lg:items-center lg:gap-2">
             <ThemeToggle />
+            <LanguageSwitcher />
           </div>
           <button
             onClick={() => setDrawerOpen(true)}
