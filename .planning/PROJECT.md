@@ -16,6 +16,8 @@ Recruiters and customers can immediately understand who I am, what I've built, a
 - [x] Sticky navigation bar that scrolls to sections — Validated in Phase 2: Layout & Navigation
 - [x] Five main sections: About, Experience, Skills, Portfolio, Contact — Validated in Phase 2: Layout & Navigation
 - [x] Responsive design for desktop, tablet, and mobile — Validated in Phase 2: Layout & Navigation
+- [x] Light and dark mode toggle — Validated in Phase 3: Theme System
+- [x] Theme preference persists across visits — Validated in Phase 3: Theme System
 
 ### Active
 
@@ -23,8 +25,6 @@ Recruiters and customers can immediately understand who I am, what I've built, a
 - [ ] Portfolio section showcasing professional work projects
 - [ ] Internationalization support (English and Spanish)
 - [ ] Language switcher in navigation
-- [ ] Light and dark mode toggle
-- [ ] Theme preference persists across visits
 - [ ] Modern corporate design aesthetic (polished, professional)
 - [ ] Placeholder content for initial build (real content added later)
 - [ ] Optimized for Vercel/Netlify deployment
@@ -65,8 +65,9 @@ Recruiters and customers can immediately understand who I am, what I've built, a
 | Minimal desktop nav with mobile hamburger | Saves vertical space, familiar mobile UX | ✓ Complete (Phase 2) |
 | Native CSS smooth scroll | Zero JavaScript, browser-native performance | ✓ Complete (Phase 2) |
 | Content-based section heights | Natural for varying content amounts | ✓ Complete (Phase 2) |
+| Three-state theme system (light/dark/system) | Respects user preference and system settings, WCAG AA compliant | ✓ Complete (Phase 3) |
 
 ---
-*Last updated: 2026-03-20 after Phase 2 completion*
+*Last updated: 2026-03-23 after Phase 3 completion*
 
-**Current State:** Phase 2 complete — Single-page layout with sticky navigation, five semantic sections, and responsive design across all breakpoints established.
+**Current State:** Phase 3 complete — Theme system implemented with three-state toggle (light/dark/system), localStorage persistence, system preference detection, FOUC prevention, and smooth transitions. Site now fully supports both light and dark modes across all components.
