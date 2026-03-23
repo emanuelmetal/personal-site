@@ -56,11 +56,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Theme
 
-- [ ] **THEME-01**: User can toggle between light and dark modes
-- [ ] **THEME-02**: Theme toggle control is accessible in navigation
-- [ ] **THEME-03**: Selected theme persists across browser sessions
-- [ ] **THEME-04**: System dark mode preference is detected on first visit
-- [ ] **THEME-05**: Theme transitions are smooth without flash of unstyled content
+- [x] **THEME-01**: User can toggle between light and dark modes
+- [x] **THEME-02**: Theme toggle control is accessible in navigation
+- [x] **THEME-03**: Selected theme persists across browser sessions
+- [x] **THEME-04**: System dark mode preference is detected on first visit
+- [x] **THEME-05**: Theme transitions are smooth without flash of unstyled content
 
 ### Performance
 
@@ -149,11 +149,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | I18N-04 | Phase 4 | Pending |
 | I18N-05 | Phase 4 | Pending |
 | I18N-06 | Phase 4 | Pending |
-| THEME-01 | Phase 3 | Pending |
-| THEME-02 | Phase 3 | Pending |
-| THEME-03 | Phase 3 | Pending |
-| THEME-04 | Phase 3 | Pending |
-| THEME-05 | Phase 3 | Pending |
+| THEME-01 | Phase 3 | Complete |
+| THEME-02 | Phase 3 | Complete |
+| THEME-03 | Phase 3 | Complete |
+| THEME-04 | Phase 3 | Complete |
+| THEME-05 | Phase 3 | Complete |
 | PERF-01 | Phase 1 | Complete |
 | PERF-02 | Phase 1 | Complete |
 | PERF-03 | Phase 8 | Pending |

@@ -78,7 +78,7 @@ Plans:
 **Plans:** 1 plan
 
 Plans:
-- [ ] 03-01-PLAN.md — Theme infrastructure, toggle component, and Header/MobileDrawer integration with next-themes
+- [x] 03-01-PLAN.md — Theme infrastructure, toggle component, and Header/MobileDrawer integration with next-themes
 
 ---
 
