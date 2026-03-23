@@ -29,5 +29,41 @@
   },
   "placeholders": {
     "comingSoon": "Content coming soon."
+  },
+  "about": {
+    "heading": "About Me",
+    "bio": "Senior software engineer with 19+ years of experience building scalable, high-quality software solutions.",
+    "description": "Full-stack engineer specializing in modern web technologies."
+  },
+  "experience": {
+    "heading": "Work Experience",
+    "timeline": {
+      "present": "Present"
+    }
+  },
+  "skills": {
+    "heading": "Skills & Technologies",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "cloud": "Cloud & DevOps",
+      "tools": "Tools & Practices"
+    }
+  },
+  "portfolio": {
+    "heading": "Portfolio",
+    "viewProject": "View Project",
+    "viewCode": "View Code"
+  },
+  "contact": {
+    "heading": "Get In Touch",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "cta": "Let's connect and discuss how I can contribute to your team."
+  },
+  "language": {
+    "switchToEnglish": "Switch to English",
+    "switchToSpanish": "Switch to Spanish"
   }
 }
