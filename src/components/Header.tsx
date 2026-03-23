@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import MobileDrawer from './MobileDrawer';
+import { ThemeToggle } from './ThemeToggle';
 
 const NAV_ITEMS = [
   'about',
@@ -72,6 +73,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <ThemeToggle />
           <button
             onClick={() => setDrawerOpen(true)}
             className="rounded-md p-2 text-gray-600 hover:bg-gray-100 hover:text-gray-900 lg:hidden dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
