@@ -47,12 +47,12 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Internationalization
 
-- [ ] **I18N-01**: User can switch between English and Spanish languages
-- [ ] **I18N-02**: Language switcher is visible in navigation bar
-- [ ] **I18N-03**: URL reflects current language (/en/ or /es/ path)
-- [ ] **I18N-04**: All content sections are translated (About, Experience, Skills, Portfolio, Contact)
-- [ ] **I18N-05**: Language preference is shareable via URL
-- [ ] **I18N-06**: User's language selection is detected from browser preferences on first visit
+- [x] **I18N-01**: User can switch between English and Spanish languages
+- [x] **I18N-02**: Language switcher is visible in navigation bar
+- [x] **I18N-03**: URL reflects current language (/en/ or /es/ path)
+- [x] **I18N-04**: All content sections are translated (About, Experience, Skills, Portfolio, Contact)
+- [x] **I18N-05**: Language preference is shareable via URL
+- [x] **I18N-06**: User's language selection is detected from browser preferences on first visit
 
 ### Theme
 
@@ -143,12 +143,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CONT-02 | Phase 5 | Pending |
 | CONT-03 | Phase 5 | Pending |
 | CONT-04 | Phase 5 | Pending |
-| I18N-01 | Phase 4 | Pending |
-| I18N-02 | Phase 4 | Pending |
-| I18N-03 | Phase 4 | Pending |
-| I18N-04 | Phase 4 | Pending |
-| I18N-05 | Phase 4 | Pending |
-| I18N-06 | Phase 4 | Pending |
+| I18N-01 | Phase 4 | Complete |
+| I18N-02 | Phase 4 | Complete |
+| I18N-03 | Phase 4 | Complete |
+| I18N-04 | Phase 4 | Complete |
+| I18N-05 | Phase 4 | Complete |
+| I18N-06 | Phase 4 | Complete |
 | THEME-01 | Phase 3 | Complete |
 | THEME-02 | Phase 3 | Complete |
 | THEME-03 | Phase 3 | Complete |

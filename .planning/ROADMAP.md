@@ -100,7 +100,7 @@ Plans:
 **Plans:** 1 plan
 
 Plans:
-- [ ] 04-01-PLAN.md — LanguageSwitcher component, navigation wrapper, translation files, Header/MobileDrawer integration
+- [x] 04-01-PLAN.md — LanguageSwitcher component, navigation wrapper, translation files, Header/MobileDrawer integration
 
 ---
 
