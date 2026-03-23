@@ -29,5 +29,41 @@
   },
   "placeholders": {
     "comingSoon": "Contenido proximamente."
+  },
+  "about": {
+    "heading": "Sobre Mi",
+    "bio": "Ingeniero de software senior con 19+ anios de experiencia construyendo soluciones de software escalables y de alta calidad.",
+    "description": "Ingeniero full-stack especializado en tecnologias web modernas."
+  },
+  "experience": {
+    "heading": "Experiencia Laboral",
+    "timeline": {
+      "present": "Presente"
+    }
+  },
+  "skills": {
+    "heading": "Habilidades y Tecnologias",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "cloud": "Nube y DevOps",
+      "tools": "Herramientas y Practicas"
+    }
+  },
+  "portfolio": {
+    "heading": "Portafolio",
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Codigo"
+  },
+  "contact": {
+    "heading": "Contacto",
+    "email": "Correo",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "cta": "Conectemos y conversemos sobre como puedo contribuir a tu equipo."
+  },
+  "language": {
+    "switchToEnglish": "Cambiar a Ingles",
+    "switchToSpanish": "Cambiar a Espanol"
   }
 }

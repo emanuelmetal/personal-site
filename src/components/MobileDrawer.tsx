@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { ThemeToggle } from './ThemeToggle';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 const NAV_ITEMS = [
   'about',
@@ -64,6 +65,7 @@ export default function MobileDrawer({
           </span>
           <div className="flex items-center gap-2">
             <ThemeToggle />
+            <LanguageSwitcher />
             <button
               onClick={onClose}
               className="rounded-md p-2 text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
