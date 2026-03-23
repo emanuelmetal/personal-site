@@ -101,7 +101,7 @@ Plans:
 
 Plans:
 - [x] 04-01-PLAN.md — LanguageSwitcher component, navigation wrapper, translation files, Header/MobileDrawer integration
-- [ ] 04-02-PLAN.md — Gap closure: fix dark mode flash and scroll position loss on language switch
+- [x] 04-02-PLAN.md — Gap closure: fix dark mode flash and scroll position loss on language switch
 
 ---
 
