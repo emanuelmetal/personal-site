@@ -15,7 +15,7 @@ export function LanguageSwitcher() {
     if (newLocale === currentLocale) return;
 
     const hash = window.location.hash;
-    router.push(`${pathname}${hash}`, { locale: newLocale });
+    router.replace(`${pathname}${hash}`, { locale: newLocale });
   };
 
   return (
