@@ -5,10 +5,11 @@ import { useState, useEffect, useMemo } from 'react';
 import { useTranslations } from 'next-intl';
 import { Sun, Moon, Monitor, type LucideIcon } from 'lucide-react';
 import { setCookieValue } from '../utils/setCookie';
+import { useTheme } from 'next-themes';
 
 export function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
-  const [theme, setTheme] = useState<'light' | 'dark' | 'system' | null>(null);
+  const { theme, systemTheme, setTheme } = useTheme();
   const t = useTranslations('theme');
 
   // Fix ESLint error: use effect callback pattern instead of direct setState
@@ -23,7 +24,11 @@ export function ThemeToggle() {
     else setTheme('light');
     setCookieValue(
       'theme',
-      theme === 'light' ? 'dark' : theme === 'dark' ? 'system' : 'light'
+      theme === 'light'
+        ? 'dark'
+        : theme === 'dark'
+          ? systemTheme || 'light'
+          : 'light'
     );
   };
 

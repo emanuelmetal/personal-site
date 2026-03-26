@@ -5,10 +5,10 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { cookies } from 'next/headers';
+import { ThemeProvider } from 'next-themes';
 
 import Header from '@/components/Header';
 import '../globals.css';
-import { ThemeScript } from '@/utils/Script';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -53,16 +53,23 @@ export default async function RootLayout({ children, params }: Props) {
       lang={lang}
       suppressHydrationWarning
       className={`${inter.variable} ${robotoMono.variable} ${theme}`}
+      data-theme={theme}
     >
       <body
         className="bg-white font-sans text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100"
         data-lang={lang}
       >
-        <ThemeScript currentTheme={theme || 'system'} />
-        <NextIntlClientProvider messages={messages}>
-          <Header />
-          {children}
-        </NextIntlClientProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          storageKey="theme"
+        >
+          <NextIntlClientProvider messages={messages}>
+            <Header />
+            {children}
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
