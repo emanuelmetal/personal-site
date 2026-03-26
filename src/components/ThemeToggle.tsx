@@ -1,13 +1,14 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { useTheme } from 'next-themes';
+// import { useTheme } from 'next-themes';
 import { useTranslations } from 'next-intl';
 import { Sun, Moon, Monitor, type LucideIcon } from 'lucide-react';
+import { setCookieValue } from '../utils/setCookie';
 
 export function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const [theme, setTheme] = useState<'light' | 'dark' | 'system' | null>(null);
   const t = useTranslations('theme');
 
   // Fix ESLint error: use effect callback pattern instead of direct setState
@@ -20,6 +21,10 @@ export function ThemeToggle() {
     if (theme === 'light') setTheme('dark');
     else if (theme === 'dark') setTheme('system');
     else setTheme('light');
+    setCookieValue(
+      'theme',
+      theme === 'light' ? 'dark' : theme === 'dark' ? 'system' : 'light'
+    );
   };
 
   // Fix ESLint error: useMemo to prevent creating component during render

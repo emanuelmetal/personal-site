@@ -15,7 +15,14 @@ export function LanguageSwitcher() {
     if (newLocale === currentLocale) return;
 
     const hash = window.location.hash;
-    router.replace(`${pathname}${hash}`, { locale: newLocale });
+
+    router.replace(
+      // @ts-expect-error -- TypeScript will validate that only known `params`
+      // are used in combination with a given `pathname`. Since the two will
+      // always match for the current route, we can skip runtime checks.
+      { pathname: `${pathname}${hash}`, params },
+      { locale: newLocale }
+    );
   };
 
   return (
