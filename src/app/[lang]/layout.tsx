@@ -4,9 +4,11 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import { ThemeProvider } from '@/providers/ThemeProvider';
+import { cookies } from 'next/headers';
+
 import Header from '@/components/Header';
 import '../globals.css';
+import { ThemeScript } from '@/utils/Script';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -37,6 +39,9 @@ export function generateStaticParams() {
 export default async function RootLayout({ children, params }: Props) {
   const { lang } = await params;
 
+  const cookieStore = await cookies();
+  const theme = cookieStore.get('theme')?.value || null;
+
   if (!routing.locales.includes(lang as 'en' | 'es')) {
     notFound();
   }
@@ -47,15 +52,17 @@ export default async function RootLayout({ children, params }: Props) {
     <html
       lang={lang}
       suppressHydrationWarning
-      className={`${inter.variable} ${robotoMono.variable}`}
+      className={`${inter.variable} ${robotoMono.variable} ${theme}`}
     >
-      <body className="bg-white font-sans text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100">
-        <ThemeProvider>
-          <NextIntlClientProvider messages={messages}>
-            <Header />
-            {children}
-          </NextIntlClientProvider>
-        </ThemeProvider>
+      <body
+        className="bg-white font-sans text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100"
+        data-lang={lang}
+      >
+        <ThemeScript currentTheme={theme || 'system'} />
+        <NextIntlClientProvider messages={messages}>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
