@@ -1,3 +1,5 @@
+import { useTranslations } from 'next-intl';
+
 interface TimelineItemProps {
   position: {
     company: string;
@@ -10,6 +12,8 @@ interface TimelineItemProps {
 }
 
 export default function TimelineItem({ position, isLast }: TimelineItemProps) {
+  const t = useTranslations('experience.timeline');
+  const presentText = t('present');
   const { company, title, startDate, endDate, achievements } = position;
 
   return (
@@ -38,7 +42,7 @@ export default function TimelineItem({ position, isLast }: TimelineItemProps) {
 
         {/* Date range */}
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          {startDate} - {endDate}
+          {startDate} - {endDate === 'Present' ? presentText : endDate}
         </p>
 
         {/* Achievement bullets */}
