@@ -32,8 +32,8 @@
   },
   "about": {
     "heading": "About Me",
-    "bio": "Senior software engineer with 19+ years of experience building scalable, high-quality software solutions.",
-    "description": "Full-stack engineer specializing in modern web technologies."
+    "bio": "Senior Software Engineer with over 19 years of experience designing and building scalable, high-quality software solutions. Specialized in full-stack web development with deep expertise in JavaScript/TypeScript ecosystems, cloud infrastructure, and engineering best practices.",
+    "description": "Passionate about clean architecture, performance optimization, and mentoring engineering teams. Currently focused on modern React/Next.js applications and cloud-native solutions."
   },
   "experience": {
     "heading": "Work Experience",
@@ -48,6 +48,33 @@
       "backend": "Backend",
       "cloud": "Cloud & DevOps",
       "tools": "Tools & Practices"
+    },
+    "tiers": {
+      "10plus": "10+ years",
+      "5to10": "5-10 years",
+      "2to5": "2-5 years"
+    },
+    "data": {
+      "frontend": {
+        "10plus": ["JavaScript", "TypeScript", "React", "HTML/CSS", "Responsive Design"],
+        "5to10": ["Next.js", "Vue.js", "Tailwind CSS", "Webpack"],
+        "2to5": ["React Server Components", "Astro", "Vite"]
+      },
+      "backend": {
+        "10plus": ["Node.js", "Express", "REST APIs", "PostgreSQL"],
+        "5to10": ["GraphQL", "MongoDB", "Redis", "Microservices"],
+        "2to5": ["Prisma", "tRPC", "Serverless Functions"]
+      },
+      "cloud": {
+        "10plus": ["Git", "CI/CD", "Linux", "Docker"],
+        "5to10": ["AWS", "Kubernetes", "Terraform", "GitHub Actions"],
+        "2to5": ["Vercel", "Railway", "Cloudflare Workers"]
+      },
+      "tools": {
+        "10plus": ["Agile/Scrum", "Code Review", "Testing Strategies", "Technical Documentation"],
+        "5to10": ["Jest", "ESLint", "Storybook", "Monorepos"],
+        "2to5": ["Playwright", "Vitest", "Turborepo"]
+      }
     }
   },
   "portfolio": {
@@ -60,7 +87,10 @@
     "email": "Email",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "cta": "Let's connect and discuss how I can contribute to your team."
+    "cta": "Let's connect and discuss how I can contribute to your team.",
+    "emailAddress": "contact@emanuelpereyra.com",
+    "linkedinUrl": "https://www.linkedin.com/in/emanuelpereyra",
+    "githubUrl": "https://github.com/emanuelmetal"
   },
   "language": {
     "switchToEnglish": "Switch to English",
