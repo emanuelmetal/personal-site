@@ -125,7 +125,7 @@ Plans:
 
 Plans:
 - [x] 05-01-PLAN.md — Populate translation files (EN/ES) with real bio, categorized skills data, and contact information
-- [ ] 05-02-PLAN.md — Implement About two-column layout, Skills badge display, and Contact section with social links
+- [x] 05-02-PLAN.md — Implement About two-column layout, Skills badge display, and Contact section with social links
 
 ---
 
