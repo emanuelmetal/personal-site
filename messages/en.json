@@ -38,7 +38,134 @@
   "experience": {
     "heading": "Work Experience",
     "timeline": {
-      "present": "Present"
+      "present": "Present",
+      "items": [
+        {
+          "company": "intive",
+          "title": "Sr Web Developer",
+          "startDate": "April 2025",
+          "endDate": "Present",
+          "achievements": [
+            "Contributing to new design system at Dow Jones for DJ+, Factiva and Risk Management products with modern, lightweight components",
+            "Building React components loosely coupled with CSS optimized for improved SSR performance"
+          ]
+        },
+        {
+          "company": "Distillery",
+          "title": "Sr SW Engineer",
+          "startDate": "March 2021",
+          "endDate": "March 2025",
+          "achievements": [
+            "Improved site reliability and scalability, reducing load time to under 5 seconds",
+            "Led white-label cross-sell initiative for hotels and properties, reducing delivery time from 2-3 sprints to 1",
+            "Maintained Angular 1.8 legacy code and integrated PayPal in booking form shared between RocketMiles and Booking.com"
+          ]
+        },
+        {
+          "company": "Summa Solutions",
+          "title": "Tech Lead",
+          "startDate": "August 2020",
+          "endDate": "March 2021",
+          "achievements": [
+            "Front End tech lead for Vtex e-commerce platform, designed development guidelines for Vtex.io",
+            "Mentored 3 junior React developers through Summa's Junior Talent Programme",
+            "Implemented Project N95 COVID Essentials e-commerce site in vtex.io with first release in only 2 weeks"
+          ]
+        },
+        {
+          "company": "Making Sense LLC",
+          "title": "Tech Lead",
+          "startDate": "June 2018",
+          "endDate": "August 2020",
+          "achievements": [
+            "Led team of 4-6 developers for Directly, setting up strategies and architecture for new developments",
+            "Designed and led microservices implementation, including user questions router that reduced response time from minutes to seconds",
+            "Led internationalization of Real-Time Messaging Applications and streams microservice for user notifications"
+          ]
+        },
+        {
+          "company": "McAfee",
+          "title": "Sr Software Engineer",
+          "startDate": "April 2017",
+          "endDate": "June 2018",
+          "achievements": [
+            "Sr Software Engineer at McAfee Active Response project, giving companies ability to scan real-time threats on network endpoints",
+            "Tech lead at new McAfee Cloud EPO project in React, Angular 2/4, and NodeJS, implementing best practices and mentoring Jr developers",
+            "Full-stack tech lead at McAfee ESM (SIEM product) working with React, Redux, Angular, D3js, and Object Pascal backend"
+          ]
+        },
+        {
+          "company": "Intel Corporation",
+          "title": "Front End Software Engineer",
+          "startDate": "November 2015",
+          "endDate": "March 2017",
+          "achievements": [
+            "Developed McAfee Active Response project created, designed and built entirely in Córdoba office",
+            "Tech lead at McAfee Cloud EPO project implementing React, Angular 2/4, and NodeJS best practices",
+            "Full-stack development at McAfee ESM with React, Redux, AngularJS, D3js and testing frameworks"
+          ]
+        },
+        {
+          "company": "Globant",
+          "title": "Web Developer",
+          "startDate": "March 2015",
+          "endDate": "October 2015",
+          "achievements": [
+            "Developed features for Disney Cruise Land and Disney World sites using AngularJS, PHP/Zend, and jQuery",
+            "Implemented improvements on search results page and search suggestion widget"
+          ]
+        },
+        {
+          "company": "3XM Group",
+          "title": "Web Developer",
+          "startDate": "April 2014",
+          "endDate": "February 2015",
+          "achievements": [
+            "Created standalone web app with BackboneJS and JqGrid to plot geospatial information on maps and tables",
+            "Developed AWS admin console for Map-Reduce process to spawn dozens of EC2 instances with usage monitoring"
+          ]
+        },
+        {
+          "company": "Harriague + Asociados",
+          "title": "Software Developer",
+          "startDate": "August 2013",
+          "endDate": "March 2014",
+          "achievements": [
+            "Worked for Arris/Motorola Mobility account on Dream Gallery Project for Verizon"
+          ]
+        },
+        {
+          "company": "ADDOC",
+          "title": "Senior System Engineer",
+          "startDate": "January 2012",
+          "endDate": "July 2013",
+          "achievements": [
+            "Unix/Debian Linux administration and Nagios monitoring tools installation",
+            "MySQL and SQL Server 2008 R2 database administration with optimization and tuning",
+            "Developed web applications using PHP 5, HTML5, CSS3, JavaScript, and jQuery"
+          ]
+        },
+        {
+          "company": "Banco de la Provincia de Córdoba S.A.",
+          "title": "Tester SAP",
+          "startDate": "April 2011",
+          "endDate": "December 2011",
+          "achievements": [
+            "SAP Banking Services Testing with manual testing of Debts Operations implemented in SAP"
+          ]
+        },
+        {
+          "company": "Aguas de Santiago S.A.",
+          "title": "Software Engineer - Business Intelligence",
+          "startDate": "May 2007",
+          "endDate": "February 2011",
+          "achievements": [
+            "Full software development lifecycle: requirements, design, development, testing, manuals, and user training",
+            "Data Warehouse ETL processes development and business measures design",
+            "Coordinated Integration and System Testing with end users"
+          ]
+        }
+      ]
     }
   },
   "skills": {

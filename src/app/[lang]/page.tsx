@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Linkedin, Github, Mail } from 'lucide-react';
 import Section from '@/components/Section';
+import Timeline from '@/components/Timeline';
 
 export default function Home() {
   const t = useTranslations();
@@ -54,9 +55,7 @@ export default function Home() {
         <h2 className="mb-8 text-xl font-bold text-gray-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('sections.experience')}
         </h2>
-        <p className="text-gray-600 dark:text-gray-400">
-          {t('placeholders.comingSoon')}
-        </p>
+        <Timeline />
       </Section>
 
       <Section id="skills">

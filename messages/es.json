@@ -38,7 +38,134 @@
   "experience": {
     "heading": "Experiencia Laboral",
     "timeline": {
-      "present": "Presente"
+      "present": "Presente",
+      "items": [
+        {
+          "company": "intive",
+          "title": "Desarrollador Web Senior",
+          "startDate": "Abril 2025",
+          "endDate": "Presente",
+          "achievements": [
+            "Contribuyendo al nuevo sistema de diseno en Dow Jones para productos DJ+, Factiva y Risk Management con componentes modernos y ligeros",
+            "Construyendo componentes React ligeramente acoplados con CSS optimizado para mejorar el rendimiento de SSR"
+          ]
+        },
+        {
+          "company": "Distillery",
+          "title": "Ingeniero de Software Senior",
+          "startDate": "Marzo 2021",
+          "endDate": "Marzo 2025",
+          "achievements": [
+            "Mejore la confiabilidad y escalabilidad del sitio, reduciendo el tiempo de carga a menos de 5 segundos",
+            "Lidere la iniciativa de venta cruzada white-label para hoteles y propiedades, reduciendo el tiempo de entrega de 2-3 sprints a 1",
+            "Mantuve codigo legado de Angular 1.8 e integre PayPal en formulario de reservas compartido entre RocketMiles y Booking.com"
+          ]
+        },
+        {
+          "company": "Summa Solutions",
+          "title": "Lider Tecnico",
+          "startDate": "Agosto 2020",
+          "endDate": "Marzo 2021",
+          "achievements": [
+            "Lider tecnico Front End para plataforma e-commerce Vtex, disene pautas de desarrollo para Vtex.io",
+            "Mentore a 3 desarrolladores React junior a traves del Programa de Talento Junior de Summa",
+            "Implemente sitio e-commerce Proyecto N95 COVID Essentials en vtex.io con primera version en solo 2 semanas"
+          ]
+        },
+        {
+          "company": "Making Sense LLC",
+          "title": "Lider Tecnico",
+          "startDate": "Junio 2018",
+          "endDate": "Agosto 2020",
+          "achievements": [
+            "Lidere equipo de 4-6 desarrolladores para Directly, estableciendo estrategias y arquitectura para nuevos desarrollos",
+            "Disene y lidere implementacion de microservicios, incluyendo router de preguntas de usuarios que redujo tiempo de respuesta de minutos a segundos",
+            "Lidere internacionalizacion de Aplicaciones de Mensajeria en Tiempo Real y microservicio de streams para notificaciones"
+          ]
+        },
+        {
+          "company": "McAfee",
+          "title": "Ingeniero de Software Senior",
+          "startDate": "Abril 2017",
+          "endDate": "Junio 2018",
+          "achievements": [
+            "Ingeniero de Software Senior en proyecto McAfee Active Response, dando a empresas capacidad de escanear amenazas en tiempo real en endpoints de red",
+            "Lider tecnico en nuevo proyecto McAfee Cloud EPO en React, Angular 2/4 y NodeJS, implementando mejores practicas y mentoreando desarrolladores Jr",
+            "Lider tecnico full-stack en McAfee ESM (producto SIEM) trabajando con React, Redux, Angular, D3js y backend Object Pascal"
+          ]
+        },
+        {
+          "company": "Intel Corporation",
+          "title": "Ingeniero de Software Front End",
+          "startDate": "Noviembre 2015",
+          "endDate": "Marzo 2017",
+          "achievements": [
+            "Desarrolle proyecto McAfee Active Response creado, disenado y construido completamente en oficina de Cordoba",
+            "Lider tecnico en proyecto McAfee Cloud EPO implementando mejores practicas de React, Angular 2/4 y NodeJS",
+            "Desarrollo full-stack en McAfee ESM con React, Redux, AngularJS, D3js y frameworks de testing"
+          ]
+        },
+        {
+          "company": "Globant",
+          "title": "Desarrollador Web",
+          "startDate": "Marzo 2015",
+          "endDate": "Octubre 2015",
+          "achievements": [
+            "Desarrolle funcionalidades para sitios Disney Cruise Land y Disney World usando AngularJS, PHP/Zend y jQuery",
+            "Implemente mejoras en pagina de resultados de busqueda y widget de sugerencias de busqueda"
+          ]
+        },
+        {
+          "company": "3XM Group",
+          "title": "Desarrollador Web",
+          "startDate": "Abril 2014",
+          "endDate": "Febrero 2015",
+          "achievements": [
+            "Cree aplicacion web independiente con BackboneJS y JqGrid para graficar informacion geoespacial en mapas y tablas",
+            "Desarrolle consola de administracion AWS para proceso Map-Reduce para generar docenas de instancias EC2 con monitoreo de uso"
+          ]
+        },
+        {
+          "company": "Harriague + Asociados",
+          "title": "Desarrollador de Software",
+          "startDate": "Agosto 2013",
+          "endDate": "Marzo 2014",
+          "achievements": [
+            "Trabaje para cuenta Arris/Motorola Mobility en Proyecto Dream Gallery para Verizon"
+          ]
+        },
+        {
+          "company": "ADDOC",
+          "title": "Ingeniero de Sistemas Senior",
+          "startDate": "Enero 2012",
+          "endDate": "Julio 2013",
+          "achievements": [
+            "Administracion de Linux Unix/Debian e instalacion de herramientas de monitoreo Nagios",
+            "Administracion de bases de datos MySQL y SQL Server 2008 R2 con optimizacion y ajuste",
+            "Desarrolle aplicaciones web usando PHP 5, HTML5, CSS3, JavaScript y jQuery"
+          ]
+        },
+        {
+          "company": "Banco de la Provincia de Córdoba S.A.",
+          "title": "Tester SAP",
+          "startDate": "Abril 2011",
+          "endDate": "Diciembre 2011",
+          "achievements": [
+            "Pruebas de Servicios Bancarios SAP con testing manual de Operaciones de Deuda implementadas en SAP"
+          ]
+        },
+        {
+          "company": "Aguas de Santiago S.A.",
+          "title": "Ingeniero de Software - Business Intelligence",
+          "startDate": "Mayo 2007",
+          "endDate": "Febrero 2011",
+          "achievements": [
+            "Ciclo completo de desarrollo de software: requisitos, diseno, desarrollo, pruebas, manuales y capacitacion de usuarios",
+            "Desarrollo de procesos ETL de Data Warehouse y diseno de medidas de negocio",
+            "Coordine Pruebas de Integracion y Sistema con usuarios finales"
+          ]
+        }
+      ]
     }
   },
   "skills": {
