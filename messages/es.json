@@ -32,8 +32,8 @@
   },
   "about": {
     "heading": "Sobre Mi",
-    "bio": "Ingeniero de software senior con 19+ anios de experiencia construyendo soluciones de software escalables y de alta calidad.",
-    "description": "Ingeniero full-stack especializado en tecnologias web modernas."
+    "bio": "Ingeniero de Software Senior con mas de 19 anios de experiencia disenando y construyendo soluciones de software escalables y de alta calidad. Especializado en desarrollo web full-stack con profunda experiencia en ecosistemas JavaScript/TypeScript, infraestructura en la nube y mejores practicas de ingenieria.",
+    "description": "Apasionado por la arquitectura limpia, la optimizacion de rendimiento y la mentoria de equipos de ingenieria. Actualmente enfocado en aplicaciones modernas con React/Next.js y soluciones nativas de la nube."
   },
   "experience": {
     "heading": "Experiencia Laboral",
@@ -48,6 +48,33 @@
       "backend": "Backend",
       "cloud": "Nube y DevOps",
       "tools": "Herramientas y Practicas"
+    },
+    "tiers": {
+      "10plus": "10+ anios",
+      "5to10": "5-10 anios",
+      "2to5": "2-5 anios"
+    },
+    "data": {
+      "frontend": {
+        "10plus": ["JavaScript", "TypeScript", "React", "HTML/CSS", "Responsive Design"],
+        "5to10": ["Next.js", "Vue.js", "Tailwind CSS", "Webpack"],
+        "2to5": ["React Server Components", "Astro", "Vite"]
+      },
+      "backend": {
+        "10plus": ["Node.js", "Express", "REST APIs", "PostgreSQL"],
+        "5to10": ["GraphQL", "MongoDB", "Redis", "Microservices"],
+        "2to5": ["Prisma", "tRPC", "Serverless Functions"]
+      },
+      "cloud": {
+        "10plus": ["Git", "CI/CD", "Linux", "Docker"],
+        "5to10": ["AWS", "Kubernetes", "Terraform", "GitHub Actions"],
+        "2to5": ["Vercel", "Railway", "Cloudflare Workers"]
+      },
+      "tools": {
+        "10plus": ["Agile/Scrum", "Code Review", "Testing Strategies", "Technical Documentation"],
+        "5to10": ["Jest", "ESLint", "Storybook", "Monorepos"],
+        "2to5": ["Playwright", "Vitest", "Turborepo"]
+      }
     }
   },
   "portfolio": {
@@ -60,7 +87,10 @@
     "email": "Correo",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "cta": "Conectemos y conversemos sobre como puedo contribuir a tu equipo."
+    "cta": "Conectemos y conversemos sobre como puedo contribuir a tu equipo.",
+    "emailAddress": "contact@emanuelpereyra.com",
+    "linkedinUrl": "https://www.linkedin.com/in/emanuelpereyra",
+    "githubUrl": "https://github.com/emanuelmetal"
   },
   "language": {
     "switchToEnglish": "Cambiar a Ingles",
