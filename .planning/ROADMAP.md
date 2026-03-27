@@ -121,10 +121,11 @@ Plans:
 6. User can click LinkedIn and GitHub profile links that open in new tabs
 7. All social profile links are functional and open correct destinations
 
-**Plans:** 1 plan
+**Plans:** 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
+- [ ] 05-01-PLAN.md — Populate translation files (EN/ES) with real bio, categorized skills data, and contact information
+- [ ] 05-02-PLAN.md — Implement About two-column layout, Skills badge display, and Contact section with social links
 
 ---
 
@@ -221,7 +222,7 @@ Plans:
 | 2. Layout & Navigation | 1/1 | Complete    | 2026-03-20 |
 | 3. Theme System | 0/1 | Planning | - |
 | 4. Internationalization | 1/2 | Executing | - |
-| 5. Core Content Sections | 0/? | Not started | - |
+| 5. Core Content Sections | 0/2 | Planning | - |
 | 6. Experience Timeline | 0/? | Not started | - |
 | 7. Portfolio Showcase | 0/? | Not started | - |
 | 8. Performance Optimization | 0/? | Not started | - |
@@ -229,4 +230,4 @@ Plans:
 
 ---
 *Roadmap created: 2026-03-20*
-*Last updated: 2026-03-23*
+*Last updated: 2026-03-27*
