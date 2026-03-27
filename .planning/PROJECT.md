@@ -23,10 +23,9 @@ Recruiters and customers can immediately understand who I am, what I've built, a
 - [x] Professional bio showcasing 19 years of experience — Validated in Phase 5: Core Content Sections
 - [x] Skills organized by technology categories with experience tiers — Validated in Phase 5: Core Content Sections
 - [x] Contact information with email and social profile links — Validated in Phase 5: Core Content Sections
+- [x] Work history presented as chronological timeline with key roles and achievements — Validated in Phase 6: Experience Timeline
 
 ### Active
-
-- [ ] Work history presented as chronological timeline with key roles and achievements
 - [ ] Portfolio section showcasing professional work projects
 - [ ] Modern corporate design aesthetic (polished, professional)
 - [ ] Optimized for Vercel/Netlify deployment
@@ -60,7 +59,7 @@ Recruiters and customers can immediately understand who I am, what I've built, a
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
 | Single-page design with sticky nav | Simplifies navigation, common portfolio pattern | ✓ Complete (Phase 2) |
-| Timeline format for work history | 19 years of experience needs chronological structure | — Pending |
+| Timeline format for work history | 19 years of experience needs chronological structure | ✓ Complete (Phase 6) |
 | Placeholder content first | Decouple site building from content writing | — Pending |
 | Next.js + Tailwind | Modern stack, great DX, Vercel-optimized | ✓ Complete (Phase 1) |
 | Modern corporate aesthetic | Appeals to enterprise recruiters, shows professionalism | — Pending |
@@ -72,7 +71,9 @@ Recruiters and customers can immediately understand who I am, what I've built, a
 | Tier-based skills grouping (10+/5-10/2-5 years) | Communicates expertise depth without overwhelming detail | ✓ Complete (Phase 5) |
 | Color-coded skill category badges | Visual organization (blue=Frontend, green=Backend, purple=Cloud, orange=Tools) | ✓ Complete (Phase 5) |
 
----
-*Last updated: 2026-03-27 after Phase 5 completion*
+| Vertical timeline with Flexbox layout | Clean implementation, responsive, no complex positioning | ✓ Complete (Phase 6) |
 
-**Current State:** Phase 5 complete — About, Skills, and Contact sections implemented with real professional content. Users can now read professional bio (19 years experience), view categorized skills with tier-based experience grouping (4 categories × 3 tiers = 48 skills), and access contact information via email mailto and social profile links (LinkedIn, GitHub).
+---
+*Last updated: 2026-03-27 after Phase 6 completion*
+
+**Current State:** Phase 6 complete — Experience Timeline implemented with 12 career positions (April 2025 - May 2007) displayed in vertical chronological format. Users can now view complete work history with company names, job titles, date ranges, and 2-3 achievement bullets per position. Timeline features full bilingual support (EN/ES), responsive spacing from mobile to desktop, and dark mode compatibility with WCAG AA contrast compliance.
