@@ -31,22 +31,22 @@ export default function TimelineItem({ position, isLast }: TimelineItemProps) {
       {/* Right column: content card */}
       <div className="flex-1 pb-8 lg:pb-12">
         {/* Company name */}
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+        <h3 className="text-xl font-semibold text-gray-900 lg:text-2xl dark:text-white">
           {company}
         </h3>
 
         {/* Job title */}
-        <p className="text-base font-medium text-blue-600 dark:text-blue-400">
+        <p className="mt-1 text-base font-medium text-blue-600 lg:text-lg dark:text-blue-400">
           {title}
         </p>
 
         {/* Date range */}
-        <p className="text-sm text-gray-500 dark:text-gray-400">
+        <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
           {startDate} - {endDate === 'Present' ? presentText : endDate}
         </p>
 
         {/* Achievement bullets */}
-        <ul className="mt-2 list-disc space-y-1 pl-5 text-gray-600 dark:text-gray-300">
+        <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-600 lg:text-base dark:text-gray-300">
           {achievements.map((achievement, index) => (
             <li key={index}>{achievement}</li>
           ))}
