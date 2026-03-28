@@ -25,6 +25,8 @@ export default function Header() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             setActiveSection(entry.target.id);
+            // Update URL hash without triggering scroll
+            window.history.replaceState(null, '', `#${entry.target.id}`);
           }
         });
       },
