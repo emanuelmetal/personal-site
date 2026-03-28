@@ -18,14 +18,14 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   const t = useTranslations('portfolio');
 
   return (
-    <div className="rounded-lg bg-white p-6 shadow-md transition-shadow duration-300 hover:shadow-lg dark:bg-gray-800">
+    <div className="flex flex-col rounded-lg bg-white p-6 shadow-md transition-shadow duration-300 hover:shadow-lg dark:bg-gray-800">
       {/* Project title */}
       <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
         {project.name}
       </h3>
 
-      {/* Project description */}
-      <p className="mt-2 text-base text-gray-600 dark:text-gray-300">
+      {/* Project description - grows to fill available space */}
+      <p className="mt-2 flex-grow text-base text-gray-600 dark:text-gray-300">
         {project.description}
       </p>
 
@@ -41,9 +41,9 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         ))}
       </div>
 
-      {/* Action buttons - conditional rendering per D-14, D-15 */}
+      {/* Action buttons - anchored to bottom with mt-auto */}
       {(project.demoUrl || project.alternateUrl || project.repoUrl) && (
-        <div className="mt-6 flex flex-wrap gap-3">
+        <div className="mt-auto flex flex-wrap gap-3 pt-6">
           {/* Primary demo URL */}
           {project.demoUrl && (
             <a
