@@ -158,16 +158,18 @@ Plans:
 **Requirements**: PORT-01, PORT-02, PORT-03
 
 **Success Criteria** (what must be TRUE):
-1. User can view showcase of 3-5 professional projects in Portfolio section
+1. User can view showcase of 4 professional projects in Portfolio section
 2. Each project card displays title, description, and technologies used
 3. User can click project links to access live demos or repositories where available
 4. Project cards are visually consistent and professionally styled
 5. Portfolio section works on mobile and desktop with responsive grid layout
 
-**Plans:** 1 plan
+**Plans:** 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Initialize Next.js project with dependencies, i18n routing, font/image optimization, and dev tooling
+- [x] 07-01-PLAN.md — Translation data and Portfolio components (ProjectGrid + ProjectCard) with responsive grid and conditional action buttons
+- [x] 07-02-PLAN.md — Page integration and responsive/dark mode/bilingual verification
+
 
 ---
 
@@ -224,7 +226,7 @@ Plans:
 | 4. Internationalization | 1/2 | Executing | - |
 | 5. Core Content Sections | 0/2 | Planning | - |
 | 6. Experience Timeline | 0/? | Not started | - |
-| 7. Portfolio Showcase | 0/? | Not started | - |
+| 7. Portfolio Showcase | 0/2 | Planning | - |
 | 8. Performance Optimization | 0/? | Not started | - |
 | 9. Accessibility & Quality | 0/? | Not started | - |
 

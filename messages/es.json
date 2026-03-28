@@ -207,7 +207,35 @@
   "portfolio": {
     "heading": "Portafolio",
     "viewProject": "Ver Proyecto",
-    "viewCode": "Ver Codigo"
+    "viewCode": "Ver Codigo",
+    "projects": [
+      {
+        "name": "Agoda's white labeling themes",
+        "description": "Como parte de la integración de Rocket Travel al stack de Agoda, el know-how de whitelabeling fue implementado en el sitio de reservas de Agoda, con clientes como All Nippon Airlines y Citibank",
+        "technologies": ["ReactJS", "Typescript", "Tailwind", ".NET"],
+        "demoUrl": "https://www.anaworldhotel.com/",
+        "alternateUrl": "https://www.citi.com/citi-partner/cititravel/login"
+      },
+      {
+        "name": "Rocket Travel AAdvantage Client Integration",
+        "description": "Creación del sitio white-label y ajustes de UI para el programa de millas de American Airlines.",
+        "technologies": ["ReactJS", "Typescript", "ChakraUI"],
+        "demoUrl": "https://www.aadvantagehotels.com/",
+        "alternateUrl": "https://search.rocketmiles.com/"
+      },
+      {
+        "name": "N95 Project",
+        "description": "Sitio de compra comunitaria N95 para esenciales de COVID, el sitio de e-commerce temprano fue implementado con Vtex.IO y componentes React.",
+        "technologies": ["React", "Typescript", "Vtex.io"],
+        "demoUrl": "https://www.projectn95.org/"
+      },
+      {
+        "name": "Alix Partners Corporate Survey",
+        "description": "Creación de un asistente de encuestas para diferentes directores de departamento de Alix Partners",
+        "technologies": ["ReactJS", "NodeJS", "Typescript", "MaterialUI"],
+        "repoUrl": "https://github.com/emanuelmetal/alix-survey-project"
+      }
+    ]
   },
   "contact": {
     "heading": "Contacto",
