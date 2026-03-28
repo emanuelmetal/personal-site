@@ -168,7 +168,7 @@ Plans:
 
 Plans:
 - [x] 07-01-PLAN.md — Translation data and Portfolio components (ProjectGrid + ProjectCard) with responsive grid and conditional action buttons
-- [ ] 07-02-PLAN.md — Page integration and responsive/dark mode/bilingual verification
+- [x] 07-02-PLAN.md — Page integration and responsive/dark mode/bilingual verification
 
 
 ---
