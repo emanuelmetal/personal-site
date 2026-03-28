@@ -167,7 +167,7 @@ Plans:
 **Plans:** 2 plans
 
 Plans:
-- [ ] 07-01-PLAN.md — Translation data and Portfolio components (ProjectGrid + ProjectCard) with responsive grid and conditional action buttons
+- [x] 07-01-PLAN.md — Translation data and Portfolio components (ProjectGrid + ProjectCard) with responsive grid and conditional action buttons
 - [ ] 07-02-PLAN.md — Page integration and responsive/dark mode/bilingual verification
 
 
@@ -226,7 +226,7 @@ Plans:
 | 4. Internationalization | 1/2 | Executing | - |
 | 5. Core Content Sections | 0/2 | Planning | - |
 | 6. Experience Timeline | 0/? | Not started | - |
-| 7. Portfolio Showcase | 0/? | Not started | - |
+| 7. Portfolio Showcase | 0/2 | Planning | - |
 | 8. Performance Optimization | 0/? | Not started | - |
 | 9. Accessibility & Quality | 0/? | Not started | - |
 

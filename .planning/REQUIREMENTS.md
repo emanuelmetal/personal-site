@@ -34,9 +34,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Content - Portfolio
 
-- [ ] **PORT-01**: User can view showcase of professional projects
-- [ ] **PORT-02**: Each project displays title, description, and technologies used
-- [ ] **PORT-03**: User can access project links (live demo or repository where available)
+- [x] **PORT-01**: User can view showcase of professional projects
+- [x] **PORT-02**: Each project displays title, description, and technologies used
+- [x] **PORT-03**: User can access project links (live demo or repository where available)
 
 ### Content - Contact
 
@@ -136,9 +136,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SKILL-01 | Phase 5 | Complete |
 | SKILL-02 | Phase 5 | Complete |
 | SKILL-03 | Phase 5 | Complete |
-| PORT-01 | Phase 7 | Pending |
-| PORT-02 | Phase 7 | Pending |
-| PORT-03 | Phase 7 | Pending |
+| PORT-01 | Phase 7 | Complete |
+| PORT-02 | Phase 7 | Complete |
+| PORT-03 | Phase 7 | Complete |
 | CONT-01 | Phase 5 | Complete |
 | CONT-02 | Phase 5 | Complete |
 | CONT-03 | Phase 5 | Complete |
