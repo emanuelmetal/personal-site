@@ -2,9 +2,13 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import MobileDrawer from './MobileDrawer';
+import dynamic from 'next/dynamic';
 import { ThemeToggle } from './ThemeToggle';
 import { LanguageSwitcher } from './LanguageSwitcher';
+
+const MobileDrawer = dynamic(() => import('./MobileDrawer'), {
+  ssr: false,
+});
 
 const NAV_ITEMS = [
   'about',

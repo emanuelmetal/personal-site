@@ -1,9 +1,21 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Linkedin, Github, Mail } from 'lucide-react';
+import dynamic from 'next/dynamic';
 import Section from '@/components/Section';
-import Timeline from '@/components/Timeline';
-import { ProjectGrid } from '@/components/Portfolio';
+import TimelineSkeleton from '@/components/Skeletons/TimelineSkeleton';
+import ProjectGridSkeleton from '@/components/Skeletons/ProjectGridSkeleton';
+
+const Timeline = dynamic(() => import('@/components/Timeline'), {
+  loading: () => <TimelineSkeleton />,
+});
+
+const ProjectGrid = dynamic(
+  () => import('@/components/Portfolio/ProjectGrid'),
+  {
+    loading: () => <ProjectGridSkeleton />,
+  }
+);
 
 export default function Home() {
   const t = useTranslations();
