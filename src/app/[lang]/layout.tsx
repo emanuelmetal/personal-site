@@ -8,6 +8,7 @@ import { cookies } from 'next/headers';
 import { ThemeProvider } from 'next-themes';
 
 import Header from '@/components/Header';
+import { WebVitals } from '@/components/WebVitals';
 import '../globals.css';
 
 const inter = Inter({
@@ -59,6 +60,7 @@ export default async function RootLayout({ children, params }: Props) {
         className="bg-white font-sans text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100"
         data-lang={lang}
       >
+        <WebVitals />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
