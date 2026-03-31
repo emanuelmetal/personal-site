@@ -12,7 +12,7 @@ export default function Section({
   return (
     <section
       id={id}
-      className={`px-4 py-12 sm:px-8 lg:px-12 lg:py-16 ${
+      className={`px-4 py-16 sm:px-8 lg:px-12 lg:py-24 ${
         alternate
           ? 'bg-slate-50 dark:bg-slate-900'
           : 'bg-white dark:bg-slate-950'

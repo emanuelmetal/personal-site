@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <main>
       <Section id="about">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Left column: Profile photo */}
           <div className="flex justify-center lg:justify-start">
             <Image
@@ -52,16 +52,16 @@ export default function Home() {
 
           {/* Right column: Bio and details */}
           <div className="flex flex-col justify-center">
-            <h1 className="mb-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl dark:text-white">
+            <h1 className="mb-3 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl dark:text-white">
               Emanuel Pereyra
             </h1>
-            <p className="mb-4 text-lg font-semibold text-blue-600 dark:text-blue-400">
+            <p className="mb-6 text-lg font-semibold text-blue-600 dark:text-blue-400">
               {t('home.heading')}
             </p>
             <p className="text-lg leading-relaxed text-slate-600 sm:text-xl dark:text-slate-300">
               {t('about.bio')}
             </p>
-            <p className="mt-2 text-base leading-relaxed text-slate-500 sm:text-lg dark:text-slate-400">
+            <p className="mt-4 text-base leading-relaxed text-slate-500 sm:text-lg dark:text-slate-400">
               {t('about.description')}
             </p>
           </div>
@@ -69,35 +69,35 @@ export default function Home() {
       </Section>
 
       <Section id="experience" alternate>
-        <h2 className="mb-8 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+        <h2 className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('sections.experience')}
         </h2>
         <Timeline />
       </Section>
 
       <Section id="skills">
-        <h2 className="mb-8 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+        <h2 className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('skills.heading')}
         </h2>
-        <div className="space-y-10">
+        <div className="space-y-12">
           {categories.map((category) => (
             <div key={category}>
               <h3 className="mb-4 text-lg font-bold text-slate-900 dark:text-white">
                 {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                 {t(`skills.categories.${category}` as any)}
               </h3>
-              <div className="space-y-3">
+              <div className="space-y-4">
                 {tiers.map((tier) => {
                   const skills = t.raw(
                     `skills.data.${category}.${tier}`
                   ) as string[];
                   return (
                     <div key={tier}>
-                      <p className="mb-2 text-sm font-medium tracking-wide text-slate-500 dark:text-slate-400">
+                      <p className="mb-3 text-sm font-medium tracking-wide text-slate-500 dark:text-slate-400">
                         {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                         {t(`skills.tiers.${tier}` as any)}
                       </p>
-                      <div className="flex flex-wrap gap-2">
+                      <div className="flex flex-wrap gap-3">
                         {skills.map((skill) => (
                           <span
                             key={skill}
@@ -117,7 +117,7 @@ export default function Home() {
       </Section>
 
       <Section id="portfolio" alternate>
-        <h2 className="mb-8 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+        <h2 className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('sections.portfolio')}
         </h2>
         <ProjectGrid />
@@ -125,15 +125,15 @@ export default function Home() {
 
       <Section id="contact">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="mb-4 text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+          <h2 className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
             {t('contact.heading')}
           </h2>
-          <p className="mb-8 text-lg text-slate-600 dark:text-slate-300">
+          <p className="mb-12 text-lg text-slate-600 dark:text-slate-300">
             {t('contact.cta')}
           </p>
 
           {/* Email link */}
-          <div className="mb-6">
+          <div className="mb-8">
             <a
               href={`mailto:${t('contact.emailAddress')}`}
               className="inline-flex items-center gap-2 text-lg font-medium text-blue-600 underline transition-colors hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
@@ -144,7 +144,7 @@ export default function Home() {
           </div>
 
           {/* Social links */}
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-6">
             <a
               href={t('contact.linkedinUrl')}
               target="_blank"
