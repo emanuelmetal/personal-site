@@ -22,6 +22,7 @@
     "system": "System preference"
   },
   "sections": {
+    "about": "About",
     "experience": "Experience",
     "skills": "Skills",
     "portfolio": "Portfolio",

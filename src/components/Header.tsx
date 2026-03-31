@@ -46,73 +46,85 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="fixed top-0 right-0 left-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur-sm dark:border-slate-800 dark:bg-slate-950/80">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-8 lg:px-12">
-        <div className="flex h-14 items-center lg:h-20">
-          <a
-            href="#about"
-            className="text-lg font-bold tracking-tight text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-white dark:focus-visible:ring-blue-400"
-          >
-            EP
-          </a>
-        </div>
-
-        <nav
-          className="hidden lg:flex lg:items-center lg:gap-1"
-          aria-label="Main navigation"
-        >
-          {NAV_ITEMS.map((item) => (
+    <>
+      <header className="fixed top-0 right-0 left-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur-sm dark:border-slate-800 dark:bg-slate-950/80">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-8 lg:px-12">
+          <div className="flex h-14 items-center lg:h-20">
             <a
-              key={item}
-              href={`#${item}`}
-              className={`relative px-3 py-2 text-sm font-medium tracking-tight transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:focus-visible:ring-blue-400 ${
-                activeSection === item
-                  ? 'text-slate-900 dark:text-white'
-                  : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'
-              }`}
+              href="#about"
+              className="text-lg font-bold tracking-tight text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-white dark:focus-visible:ring-blue-400"
             >
-              {t(item)}
-              {activeSection === item && (
-                <span className="absolute bottom-0 left-1/2 h-0.5 w-4 -translate-x-1/2 rounded-full bg-slate-900 dark:bg-white" />
-              )}
+              EP
             </a>
-          ))}
-        </nav>
-
-        <div className="flex items-center gap-2">
-          <div className="hidden lg:flex lg:items-center lg:gap-2">
-            <ThemeToggle />
-            <LanguageSwitcher />
           </div>
-          <button
-            onClick={() => setDrawerOpen(true)}
-            className="rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none lg:hidden dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
-            aria-label="Open navigation menu"
-            aria-expanded={drawerOpen}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="h-6 w-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
 
-      <MobileDrawer
-        open={drawerOpen}
-        onClose={() => setDrawerOpen(false)}
-        activeSection={activeSection}
-      />
-    </header>
+          <nav
+            className="hidden lg:flex lg:items-center lg:gap-1"
+            aria-label="Main navigation"
+          >
+            {NAV_ITEMS.map((item) => (
+              <a
+                key={item}
+                href={`#${item}`}
+                className={`relative px-3 py-2 text-sm font-medium tracking-tight transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:focus-visible:ring-blue-400 ${
+                  activeSection === item
+                    ? 'text-slate-900 dark:text-white'
+                    : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'
+                }`}
+              >
+                {t(item)}
+                {activeSection === item && (
+                  <span className="absolute bottom-0 left-1/2 h-0.5 w-4 -translate-x-1/2 rounded-full bg-slate-900 dark:bg-white" />
+                )}
+              </a>
+            ))}
+          </nav>
+
+          <div className="flex items-center gap-2">
+            <div className="hidden lg:flex lg:items-center lg:gap-2">
+              <ThemeToggle />
+              <LanguageSwitcher />
+            </div>
+            <button
+              onClick={() => setDrawerOpen(true)}
+              className="rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none lg:hidden dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
+              aria-label="Open navigation menu"
+              aria-expanded={drawerOpen}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="h-6 w-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <MobileDrawer
+          open={drawerOpen}
+          onClose={() => setDrawerOpen(false)}
+          activeSection={activeSection}
+        />
+      </header>
+
+      {/* ARIA live region for screen reader announcements */}
+      <div
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+        className="sr-only"
+      >
+        {activeSection && `Now viewing: ${t(`sections.${activeSection}`)}`}
+      </div>
+    </>
   );
 }

@@ -39,13 +39,13 @@ export default function Home() {
       <a href="#about" className="skip-link">
         {t('a11y.skipToMain')}
       </a>
-      <Section id="about">
+      <Section id="about" aria-labelledby="about-heading">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Left column: Profile photo */}
           <div className="flex justify-center lg:justify-start">
             <Image
               src="/placeholder.svg"
-              alt="Emanuel Pereyra"
+              alt="Emanuel Pereyra, Software Engineer"
               width={200}
               height={200}
               priority={true}
@@ -55,7 +55,10 @@ export default function Home() {
 
           {/* Right column: Bio and details */}
           <div className="flex flex-col justify-center">
-            <h1 className="mb-3 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl dark:text-white">
+            <h1
+              id="about-heading"
+              className="mb-3 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl dark:text-white"
+            >
               Emanuel Pereyra
             </h1>
             <p className="mb-6 text-lg font-semibold text-blue-600 dark:text-blue-400">
@@ -71,15 +74,21 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section id="experience" alternate>
-        <h2 className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+      <Section id="experience" alternate aria-labelledby="experience-heading">
+        <h2
+          id="experience-heading"
+          className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white"
+        >
           {t('sections.experience')}
         </h2>
         <Timeline />
       </Section>
 
-      <Section id="skills">
-        <h2 className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+      <Section id="skills" aria-labelledby="skills-heading">
+        <h2
+          id="skills-heading"
+          className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white"
+        >
           {t('skills.heading')}
         </h2>
         <div className="space-y-12">
@@ -119,16 +128,22 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section id="portfolio" alternate>
-        <h2 className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+      <Section id="portfolio" alternate aria-labelledby="portfolio-heading">
+        <h2
+          id="portfolio-heading"
+          className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white"
+        >
           {t('sections.portfolio')}
         </h2>
         <ProjectGrid />
       </Section>
 
-      <Section id="contact">
+      <Section id="contact" aria-labelledby="contact-heading">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+          <h2
+            id="contact-heading"
+            className="mb-12 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white"
+          >
             {t('contact.heading')}
           </h2>
           <p className="mb-12 text-lg text-slate-600 dark:text-slate-300">
