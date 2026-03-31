@@ -52,16 +52,16 @@ export default function Home() {
 
           {/* Right column: Bio and details */}
           <div className="flex flex-col justify-center">
-            <h1 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl lg:text-4xl dark:text-white">
+            <h1 className="mb-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl dark:text-white">
               Emanuel Pereyra
             </h1>
             <p className="mb-4 text-lg font-medium text-blue-600 dark:text-blue-400">
               {t('home.heading')}
             </p>
-            <p className="text-lg text-gray-600 sm:text-xl dark:text-gray-300">
+            <p className="text-lg text-slate-600 sm:text-xl dark:text-slate-300">
               {t('about.bio')}
             </p>
-            <p className="mt-2 text-base text-gray-500 sm:text-lg dark:text-gray-400">
+            <p className="mt-2 text-base text-slate-500 sm:text-lg dark:text-slate-400">
               {t('about.description')}
             </p>
           </div>
@@ -69,20 +69,20 @@ export default function Home() {
       </Section>
 
       <Section id="experience" alternate>
-        <h2 className="mb-8 text-xl font-bold text-gray-900 sm:text-2xl lg:text-3xl dark:text-white">
+        <h2 className="mb-8 text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('sections.experience')}
         </h2>
         <Timeline />
       </Section>
 
       <Section id="skills">
-        <h2 className="mb-8 text-xl font-bold text-gray-900 sm:text-2xl lg:text-3xl dark:text-white">
+        <h2 className="mb-8 text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('skills.heading')}
         </h2>
         <div className="space-y-10">
           {categories.map((category) => (
             <div key={category}>
-              <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="mb-4 text-lg font-semibold text-slate-900 dark:text-white">
                 {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                 {t(`skills.categories.${category}` as any)}
               </h3>
@@ -93,7 +93,7 @@ export default function Home() {
                   ) as string[];
                   return (
                     <div key={tier}>
-                      <p className="mb-2 text-sm font-medium text-gray-500 dark:text-gray-400">
+                      <p className="mb-2 text-sm font-medium text-slate-500 dark:text-slate-400">
                         {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                         {t(`skills.tiers.${tier}` as any)}
                       </p>
@@ -117,7 +117,7 @@ export default function Home() {
       </Section>
 
       <Section id="portfolio" alternate>
-        <h2 className="mb-8 text-xl font-bold text-gray-900 sm:text-2xl lg:text-3xl dark:text-white">
+        <h2 className="mb-8 text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('sections.portfolio')}
         </h2>
         <ProjectGrid />
@@ -125,10 +125,10 @@ export default function Home() {
 
       <Section id="contact">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="mb-4 text-xl font-bold text-gray-900 sm:text-2xl lg:text-3xl dark:text-white">
+          <h2 className="mb-4 text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
             {t('contact.heading')}
           </h2>
-          <p className="mb-8 text-lg text-gray-600 dark:text-gray-300">
+          <p className="mb-8 text-lg text-slate-600 dark:text-slate-300">
             {t('contact.cta')}
           </p>
 
@@ -149,7 +149,7 @@ export default function Home() {
               href={t('contact.linkedinUrl')}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
               aria-label="LinkedIn profile"
             >
               <Linkedin className="h-5 w-5" />
@@ -161,7 +161,7 @@ export default function Home() {
               href={t('contact.githubUrl')}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
               aria-label="GitHub profile"
             >
               <Github className="h-5 w-5" />
@@ -171,7 +171,7 @@ export default function Home() {
               href={t('contact.twitterUrl')}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
               aria-label="Twitter profile"
             >
               <Twitter className="h-5 w-5" />
@@ -181,7 +181,7 @@ export default function Home() {
               href={t('contact.instagramUrl')}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
               aria-label="Instagram profile"
             >
               <Instagram className="h-5 w-5" />

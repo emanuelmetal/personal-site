@@ -13,7 +13,9 @@ export default function Section({
     <section
       id={id}
       className={`px-4 py-12 sm:px-8 lg:px-12 lg:py-16 ${
-        alternate ? 'bg-gray-50 dark:bg-gray-900' : 'bg-white dark:bg-gray-950'
+        alternate
+          ? 'bg-slate-50 dark:bg-slate-900'
+          : 'bg-white dark:bg-slate-950'
       }`}
     >
       <div className="mx-auto max-w-7xl">{children}</div>
