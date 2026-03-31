@@ -32,3 +32,13 @@ html {
     scroll-padding-top: 5rem; /* 80px = h-20 desktop nav height */
   }
 }
+
+main {
+  padding-top: 3.5rem; /* h-14 mobile header */
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding-top: 5rem; /* h-20 desktop header */
+  }
+}
