@@ -183,7 +183,13 @@
     },
     "data": {
       "frontend": {
-        "10plus": ["JavaScript", "TypeScript", "React", "HTML/CSS", "Responsive Design"],
+        "10plus": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "HTML/CSS",
+          "Responsive Design"
+        ],
         "5to10": ["Next.js", "Vue.js", "Tailwind CSS", "Webpack"],
         "2to5": ["React Server Components", "Astro", "Vite"]
       },
@@ -198,7 +204,12 @@
         "2to5": ["Vercel", "Railway", "Cloudflare Workers"]
       },
       "tools": {
-        "10plus": ["Agile/Scrum", "Code Review", "Testing Strategies", "Technical Documentation"],
+        "10plus": [
+          "Agile/Scrum",
+          "Code Review",
+          "Testing Strategies",
+          "Technical Documentation"
+        ],
         "5to10": ["Jest", "ESLint", "Storybook", "Monorepos"],
         "2to5": ["Playwright", "Vitest", "Turborepo"]
       }
@@ -243,9 +254,11 @@
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "cta": "Let's connect and discuss how I can contribute to your team.",
-    "emailAddress": "contact@emanuelpereyra.com",
-    "linkedinUrl": "https://www.linkedin.com/in/emanuelpereyra",
-    "githubUrl": "https://github.com/emanuelmetal"
+    "emailAddress": "emanuel.pereyra77@gmail.com",
+    "linkedinUrl": "https://www.linkedin.com/in/emap77",
+    "githubUrl": "https://github.com/emanuelmetal",
+    "twitterUrl": "https://x.com/emapereyra77",
+    "instagramUrl": "https://www.instagram.com/emanuel.pereyra77/"
   },
   "language": {
     "switchToEnglish": "Switch to English",

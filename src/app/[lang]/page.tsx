@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { Linkedin, Github, Mail } from 'lucide-react';
+import { Linkedin, Github, Mail, Twitter, Instagram } from 'lucide-react';
 import dynamic from 'next/dynamic';
 import Section from '@/components/Section';
 import TimelineSkeleton from '@/components/Skeletons/TimelineSkeleton';
@@ -22,10 +22,14 @@ export default function Home() {
 
   // Category colors for skill badges
   const categoryColors: Record<string, string> = {
-    frontend: 'bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-300',
-    backend: 'bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300',
-    cloud: 'bg-purple-100 text-purple-800 dark:bg-purple-900/50 dark:text-purple-300',
-    tools: 'bg-orange-100 text-orange-800 dark:bg-orange-900/50 dark:text-orange-300',
+    frontend:
+      'bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-300',
+    backend:
+      'bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300',
+    cloud:
+      'bg-purple-100 text-purple-800 dark:bg-purple-900/50 dark:text-purple-300',
+    tools:
+      'bg-orange-100 text-orange-800 dark:bg-orange-900/50 dark:text-orange-300',
   };
   const categories = ['frontend', 'backend', 'cloud', 'tools'] as const;
   const tiers = ['10plus', '5to10', '2to5'] as const;
@@ -84,7 +88,9 @@ export default function Home() {
               </h3>
               <div className="space-y-3">
                 {tiers.map((tier) => {
-                  const skills = t.raw(`skills.data.${category}.${tier}`) as string[];
+                  const skills = t.raw(
+                    `skills.data.${category}.${tier}`
+                  ) as string[];
                   return (
                     <div key={tier}>
                       <p className="mb-2 text-sm font-medium text-gray-500 dark:text-gray-400">
@@ -138,7 +144,7 @@ export default function Home() {
           </div>
 
           {/* Social links */}
-          <div className="flex justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             <a
               href={t('contact.linkedinUrl')}
               target="_blank"
@@ -147,7 +153,9 @@ export default function Home() {
               aria-label="LinkedIn profile"
             >
               <Linkedin className="h-5 w-5" />
-              <span className="text-sm font-medium">{t('contact.linkedin')}</span>
+              <span className="text-sm font-medium">
+                {t('contact.linkedin')}
+              </span>
             </a>
             <a
               href={t('contact.githubUrl')}
@@ -158,6 +166,26 @@ export default function Home() {
             >
               <Github className="h-5 w-5" />
               <span className="text-sm font-medium">{t('contact.github')}</span>
+            </a>
+            <a
+              href={t('contact.twitterUrl')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
+              aria-label="Twitter profile"
+            >
+              <Twitter className="h-5 w-5" />
+              <span className="text-sm font-medium">Twitter</span>
+            </a>
+            <a
+              href={t('contact.instagramUrl')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
+              aria-label="Instagram profile"
+            >
+              <Instagram className="h-5 w-5" />
+              <span className="text-sm font-medium">Instagram</span>
             </a>
           </div>
         </div>
