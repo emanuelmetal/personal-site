@@ -51,7 +51,7 @@ export default function Header() {
         <div className="flex h-14 items-center lg:h-20">
           <a
             href="#about"
-            className="text-lg font-bold text-slate-900 dark:text-white"
+            className="text-lg font-bold tracking-tight text-slate-900 dark:text-white"
           >
             EP
           </a>
@@ -65,7 +65,7 @@ export default function Header() {
             <a
               key={item}
               href={`#${item}`}
-              className={`relative px-3 py-2 text-sm font-medium transition-colors ${
+              className={`relative px-3 py-2 text-sm font-medium tracking-tight transition-colors ${
                 activeSection === item
                   ? 'text-slate-900 dark:text-white'
                   : 'text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white'

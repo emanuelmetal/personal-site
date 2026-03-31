@@ -55,13 +55,13 @@ export default function Home() {
             <h1 className="mb-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl dark:text-white">
               Emanuel Pereyra
             </h1>
-            <p className="mb-4 text-lg font-medium text-blue-600 dark:text-blue-400">
+            <p className="mb-4 text-lg font-semibold text-blue-600 dark:text-blue-400">
               {t('home.heading')}
             </p>
-            <p className="text-lg text-slate-600 sm:text-xl dark:text-slate-300">
+            <p className="text-lg leading-relaxed text-slate-600 sm:text-xl dark:text-slate-300">
               {t('about.bio')}
             </p>
-            <p className="mt-2 text-base text-slate-500 sm:text-lg dark:text-slate-400">
+            <p className="mt-2 text-base leading-relaxed text-slate-500 sm:text-lg dark:text-slate-400">
               {t('about.description')}
             </p>
           </div>
@@ -69,20 +69,20 @@ export default function Home() {
       </Section>
 
       <Section id="experience" alternate>
-        <h2 className="mb-8 text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+        <h2 className="mb-8 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('sections.experience')}
         </h2>
         <Timeline />
       </Section>
 
       <Section id="skills">
-        <h2 className="mb-8 text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+        <h2 className="mb-8 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('skills.heading')}
         </h2>
         <div className="space-y-10">
           {categories.map((category) => (
             <div key={category}>
-              <h3 className="mb-4 text-lg font-semibold text-slate-900 dark:text-white">
+              <h3 className="mb-4 text-lg font-bold text-slate-900 dark:text-white">
                 {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                 {t(`skills.categories.${category}` as any)}
               </h3>
@@ -93,7 +93,7 @@ export default function Home() {
                   ) as string[];
                   return (
                     <div key={tier}>
-                      <p className="mb-2 text-sm font-medium text-slate-500 dark:text-slate-400">
+                      <p className="mb-2 text-sm font-medium tracking-wide text-slate-500 dark:text-slate-400">
                         {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                         {t(`skills.tiers.${tier}` as any)}
                       </p>
@@ -117,7 +117,7 @@ export default function Home() {
       </Section>
 
       <Section id="portfolio" alternate>
-        <h2 className="mb-8 text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
+        <h2 className="mb-8 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl lg:text-3xl dark:text-white">
           {t('sections.portfolio')}
         </h2>
         <ProjectGrid />

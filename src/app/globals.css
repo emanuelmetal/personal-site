@@ -42,3 +42,25 @@ main {
     padding-top: 5rem; /* h-20 desktop header */
   }
 }
+
+/* Typography refinement (D-05) */
+body {
+  line-height: 1.6; /* More comfortable reading */
+  letter-spacing: -0.01em; /* Subtle tightening for modern feel */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2; /* Tighter for headings */
+  letter-spacing: -0.02em; /* More pronounced for display text */
+  font-weight: 700; /* Ensure bold headings */
+}
+
+/* Improve readability for body text */
+p {
+  line-height: 1.7;
+}
