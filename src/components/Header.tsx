@@ -34,7 +34,7 @@ export default function Header() {
           }
         });
       },
-      { rootMargin: '-20% 0px -80% 0px' }
+      { rootMargin: '-10% 0px -80% 0px' }
     );
 
     NAV_ITEMS.forEach((id) => {
