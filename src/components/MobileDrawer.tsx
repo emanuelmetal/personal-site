@@ -52,15 +52,15 @@ export default function MobileDrawer({
       )}
 
       <div
-        className={`fixed top-0 right-0 z-50 h-auto w-72 transform bg-white shadow-xl transition-transform duration-300 ease-in-out lg:hidden dark:bg-gray-950 ${
+        className={`fixed top-0 right-0 z-50 h-auto w-72 transform bg-white shadow-xl transition-transform duration-300 ease-in-out lg:hidden dark:bg-slate-950 ${
           open ? 'translate-x-0' : 'translate-x-full'
         }`}
         role="dialog"
         aria-modal="true"
         aria-label="Navigation menu"
       >
-        <div className="flex h-14 items-center justify-between border-b border-gray-200 px-4 dark:border-gray-800">
-          <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
+        <div className="flex h-14 items-center justify-between border-b border-slate-200 px-4 dark:border-slate-800">
+          <span className="text-sm font-medium text-slate-500 dark:text-slate-300">
             Menu
           </span>
           <div className="flex items-center gap-2">
@@ -68,7 +68,7 @@ export default function MobileDrawer({
             <LanguageSwitcher />
             <button
               onClick={onClose}
-              className="rounded-md p-2 text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
+              className="rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
               aria-label="Close navigation menu"
             >
               <svg
@@ -95,10 +95,10 @@ export default function MobileDrawer({
               key={item}
               href={`#${item}`}
               onClick={handleNavClick}
-              className={`block rounded-md px-4 py-3 text-base font-medium transition-colors ${
+              className={`block rounded-md px-4 py-3 text-base font-medium transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:focus-visible:ring-blue-400 ${
                 activeSection === item
-                  ? 'bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white'
-                  : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-white'
+                  ? 'bg-slate-100 text-slate-900 dark:bg-slate-800 dark:text-white'
+                  : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-900 dark:hover:text-white'
               }`}
             >
               {t(item)}

@@ -29,24 +29,24 @@ export function LanguageSwitcher() {
     <div className="flex items-center gap-1 text-sm">
       <button
         onClick={() => handleLanguageSwitch('en')}
-        className={
+        className={`focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:focus-visible:ring-blue-400 ${
           currentLocale === 'en'
-            ? 'font-bold text-gray-900 dark:text-white'
-            : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200'
-        }
+            ? 'font-bold text-slate-900 dark:text-white'
+            : 'text-slate-500 hover:text-slate-700 dark:text-slate-300 dark:hover:text-white'
+        }`}
         aria-label={t('switchToEnglish')}
         aria-current={currentLocale === 'en' ? 'true' : undefined}
       >
         EN
       </button>
-      <span className="text-gray-400 dark:text-gray-600">/</span>
+      <span className="text-slate-400 dark:text-slate-600">/</span>
       <button
         onClick={() => handleLanguageSwitch('es')}
-        className={
+        className={`focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:focus-visible:ring-blue-400 ${
           currentLocale === 'es'
-            ? 'font-bold text-gray-900 dark:text-white'
-            : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200'
-        }
+            ? 'font-bold text-slate-900 dark:text-white'
+            : 'text-slate-500 hover:text-slate-700 dark:text-slate-300 dark:hover:text-white'
+        }`}
         aria-label={t('switchToSpanish')}
         aria-current={currentLocale === 'es' ? 'true' : undefined}
       >

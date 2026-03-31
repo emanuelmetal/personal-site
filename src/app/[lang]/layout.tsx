@@ -57,7 +57,7 @@ export default async function RootLayout({ children, params }: Props) {
       data-theme={theme}
     >
       <body
-        className="bg-white font-sans text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100"
+        className="bg-white font-sans text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100"
         data-lang={lang}
       >
         <WebVitals />

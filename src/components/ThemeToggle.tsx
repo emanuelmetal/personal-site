@@ -42,7 +42,7 @@ export function ThemeToggle() {
   if (!mounted) {
     return (
       <button
-        className="h-10 w-10 rounded-md p-2 text-gray-600 dark:text-gray-400"
+        className="h-10 w-10 rounded-md p-2 text-slate-600 dark:text-slate-300"
         aria-label="Loading theme toggle"
         disabled
       >
@@ -54,7 +54,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={cycleTheme}
-      className="rounded-md p-2 text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white dark:focus-visible:outline-white"
+      className="rounded-md p-2 text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
       aria-label={t('toggleLabel', { current: theme || 'system' })}
       title={t('cycleHint')}
     >
