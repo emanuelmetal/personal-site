@@ -60,7 +60,7 @@ export default function MobileDrawer({
         aria-label="Navigation menu"
       >
         <div className="flex h-14 items-center justify-between border-b border-slate-200 px-4 dark:border-slate-800">
-          <span className="text-sm font-medium text-slate-500 dark:text-slate-400">
+          <span className="text-sm font-medium text-slate-500 dark:text-slate-300">
             Menu
           </span>
           <div className="flex items-center gap-2">
@@ -68,7 +68,7 @@ export default function MobileDrawer({
             <LanguageSwitcher />
             <button
               onClick={onClose}
-              className="rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white"
+              className="rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
               aria-label="Close navigation menu"
             >
               <svg
@@ -98,7 +98,7 @@ export default function MobileDrawer({
               className={`block rounded-md px-4 py-3 text-base font-medium transition-colors ${
                 activeSection === item
                   ? 'bg-slate-100 text-slate-900 dark:bg-slate-800 dark:text-white'
-                  : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-900 dark:hover:text-white'
+                  : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-900 dark:hover:text-white'
               }`}
             >
               {t(item)}

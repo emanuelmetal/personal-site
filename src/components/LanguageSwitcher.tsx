@@ -32,7 +32,7 @@ export function LanguageSwitcher() {
         className={
           currentLocale === 'en'
             ? 'font-bold text-slate-900 dark:text-white'
-            : 'text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200'
+            : 'text-slate-500 hover:text-slate-700 dark:text-slate-300 dark:hover:text-white'
         }
         aria-label={t('switchToEnglish')}
         aria-current={currentLocale === 'en' ? 'true' : undefined}
@@ -45,7 +45,7 @@ export function LanguageSwitcher() {
         className={
           currentLocale === 'es'
             ? 'font-bold text-slate-900 dark:text-white'
-            : 'text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200'
+            : 'text-slate-500 hover:text-slate-700 dark:text-slate-300 dark:hover:text-white'
         }
         aria-label={t('switchToSpanish')}
         aria-current={currentLocale === 'es' ? 'true' : undefined}

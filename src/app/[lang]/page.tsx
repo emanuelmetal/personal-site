@@ -61,7 +61,7 @@ export default function Home() {
             <p className="text-lg leading-relaxed text-slate-600 sm:text-xl dark:text-slate-300">
               {t('about.bio')}
             </p>
-            <p className="mt-4 text-base leading-relaxed text-slate-500 sm:text-lg dark:text-slate-400">
+            <p className="mt-4 text-base leading-relaxed text-slate-500 sm:text-lg dark:text-slate-300">
               {t('about.description')}
             </p>
           </div>
@@ -93,7 +93,7 @@ export default function Home() {
                   ) as string[];
                   return (
                     <div key={tier}>
-                      <p className="mb-3 text-sm font-medium tracking-wide text-slate-500 dark:text-slate-400">
+                      <p className="mb-3 text-sm font-medium tracking-wide text-slate-500 dark:text-slate-300">
                         {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                         {t(`skills.tiers.${tier}` as any)}
                       </p>
