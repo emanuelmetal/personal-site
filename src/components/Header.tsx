@@ -51,7 +51,7 @@ export default function Header() {
         <div className="flex h-14 items-center lg:h-20">
           <a
             href="#about"
-            className="text-lg font-bold tracking-tight text-slate-900 dark:text-white"
+            className="text-lg font-bold tracking-tight text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-white dark:focus-visible:ring-blue-400"
           >
             EP
           </a>
@@ -65,7 +65,7 @@ export default function Header() {
             <a
               key={item}
               href={`#${item}`}
-              className={`relative px-3 py-2 text-sm font-medium tracking-tight transition-colors ${
+              className={`relative px-3 py-2 text-sm font-medium tracking-tight transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:focus-visible:ring-blue-400 ${
                 activeSection === item
                   ? 'text-slate-900 dark:text-white'
                   : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'
@@ -86,7 +86,7 @@ export default function Header() {
           </div>
           <button
             onClick={() => setDrawerOpen(true)}
-            className="rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 lg:hidden dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
+            className="rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none lg:hidden dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
             aria-label="Open navigation menu"
             aria-expanded={drawerOpen}
           >

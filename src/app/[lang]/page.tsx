@@ -35,7 +35,10 @@ export default function Home() {
   const tiers = ['10plus', '5to10', '2to5'] as const;
 
   return (
-    <main>
+    <main id="main" role="main">
+      <a href="#about" className="skip-link">
+        {t('a11y.skipToMain')}
+      </a>
       <Section id="about">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Left column: Profile photo */}
@@ -136,7 +139,7 @@ export default function Home() {
           <div className="mb-8">
             <a
               href={`mailto:${t('contact.emailAddress')}`}
-              className="inline-flex items-center gap-2 text-lg font-medium text-blue-600 underline transition-colors hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+              className="inline-flex items-center gap-2 text-lg font-medium text-blue-600 underline transition-colors hover:text-blue-800 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-blue-400 dark:hover:text-blue-300 dark:focus-visible:ring-blue-400"
             >
               <Mail className="h-5 w-5" />
               <span>{t('contact.emailAddress')}</span>
@@ -149,7 +152,7 @@ export default function Home() {
               href={t('contact.linkedinUrl')}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
               aria-label="LinkedIn profile"
             >
               <Linkedin className="h-5 w-5" />
@@ -161,7 +164,7 @@ export default function Home() {
               href={t('contact.githubUrl')}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
               aria-label="GitHub profile"
             >
               <Github className="h-5 w-5" />
@@ -171,7 +174,7 @@ export default function Home() {
               href={t('contact.twitterUrl')}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
               aria-label="Twitter profile"
             >
               <Twitter className="h-5 w-5" />
@@ -181,7 +184,7 @@ export default function Home() {
               href={t('contact.instagramUrl')}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
+              className="flex items-center gap-2 rounded-lg px-4 py-2 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
               aria-label="Instagram profile"
             >
               <Instagram className="h-5 w-5" />

@@ -68,7 +68,7 @@ export default function MobileDrawer({
             <LanguageSwitcher />
             <button
               onClick={onClose}
-              className="rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
+              className="rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:ring-blue-400"
               aria-label="Close navigation menu"
             >
               <svg
@@ -95,7 +95,7 @@ export default function MobileDrawer({
               key={item}
               href={`#${item}`}
               onClick={handleNavClick}
-              className={`block rounded-md px-4 py-3 text-base font-medium transition-colors ${
+              className={`block rounded-md px-4 py-3 text-base font-medium transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none dark:focus-visible:ring-blue-400 ${
                 activeSection === item
                   ? 'bg-slate-100 text-slate-900 dark:bg-slate-800 dark:text-white'
                   : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-900 dark:hover:text-white'

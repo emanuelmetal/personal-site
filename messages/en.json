@@ -263,5 +263,8 @@
   "language": {
     "switchToEnglish": "Switch to English",
     "switchToSpanish": "Switch to Spanish"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content"
   }
 }
