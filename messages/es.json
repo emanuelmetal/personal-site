@@ -1,11 +1,11 @@
 {
   "metadata": {
     "title": "Emanuel Pereyra - Ingeniero de Software Senior",
-    "description": "19+ anios construyendo sistemas escalables. Ingeniero full-stack especializado en tecnologias web modernas."
+    "description": "19+ años construyendo sistemas escalables. Ingeniero full-stack especializado en tecnologias web modernas."
   },
   "home": {
     "heading": "Ingeniero de Software Senior",
-    "subheading": "19+ anios de experiencia construyendo software escalable y de alta calidad"
+    "subheading": "19+ años de experiencia construyendo software escalable y de alta calidad"
   },
   "nav": {
     "about": "Acerca",
@@ -33,7 +33,7 @@
   },
   "about": {
     "heading": "Sobre Mi",
-    "bio": "Ingeniero de Software Senior con mas de 19 anios de experiencia disenando y construyendo soluciones de software escalables y de alta calidad. Especializado en desarrollo web full-stack con profunda experiencia en ecosistemas JavaScript/TypeScript, infraestructura en la nube y mejores practicas de ingenieria.",
+    "bio": "Ingeniero de Software Senior con mas de 19 años de experiencia disenando y construyendo soluciones de software escalables y de alta calidad. Especializado en desarrollo web full-stack con profunda experiencia en ecosistemas JavaScript/TypeScript, infraestructura en la nube y mejores practicas de ingenieria.",
     "description": "Apasionado por la arquitectura limpia, la optimizacion de rendimiento y la mentoria de equipos de ingenieria. Actualmente enfocado en aplicaciones modernas con React/Next.js y soluciones nativas de la nube."
   },
   "experience": {
@@ -178,9 +178,9 @@
       "tools": "Herramientas y Practicas"
     },
     "tiers": {
-      "10plus": "10+ anios",
-      "5to10": "5-10 anios",
-      "2to5": "2-5 anios"
+      "10plus": "10+ años",
+      "5to10": "5-10 años",
+      "2to5": "2-5 años"
     },
     "data": {
       "frontend": {
@@ -192,17 +192,17 @@
           "Responsive Design"
         ],
         "5to10": ["Next.js", "Vue.js", "Tailwind CSS", "Webpack"],
-        "2to5": ["React Server Components", "Astro", "Vite"]
+        "2to5": ["React Server Components", "ChakraUI", "Vite"]
       },
       "backend": {
         "10plus": ["Node.js", "Express", "REST APIs", "PostgreSQL"],
-        "5to10": ["GraphQL", "MongoDB", "Redis", "Microservices"],
-        "2to5": ["Prisma", "tRPC", "Serverless Functions"]
+        "5to10": ["GraphQL", "MongoDB", "Redis", "Microservices", "Groovy"],
+        "2to5": ["Serverless Functions", "Java", "Python"]
       },
       "cloud": {
         "10plus": ["Git", "CI/CD", "Linux", "Docker"],
-        "5to10": ["AWS", "Kubernetes", "Terraform", "GitHub Actions"],
-        "2to5": ["Vercel", "Railway", "Cloudflare Workers"]
+        "5to10": ["AWS", "GitHub Actions"],
+        "2to5": ["Vercel"]
       },
       "tools": {
         "10plus": [
@@ -212,7 +212,7 @@
           "Technical Documentation"
         ],
         "5to10": ["Jest", "ESLint", "Storybook", "Monorepos"],
-        "2to5": ["Playwright", "Vitest", "Turborepo"]
+        "2to5": ["Playwright", "Vitest", "Turborepo", "React Testing Library"]
       }
     }
   },
