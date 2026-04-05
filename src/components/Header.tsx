@@ -19,7 +19,7 @@ const NAV_ITEMS = [
 ] as const;
 
 export default function Header() {
-  const t = useTranslations('nav');
+  const t = useTranslations();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [activeSection, setActiveSection] = useState<string>('about');
 
@@ -72,7 +72,7 @@ export default function Header() {
                     : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'
                 }`}
               >
-                {t(item)}
+                {t(`nav.${item}`)}
                 {activeSection === item && (
                   <span className="absolute bottom-0 left-1/2 h-0.5 w-4 -translate-x-1/2 rounded-full bg-slate-900 dark:bg-white" />
                 )}

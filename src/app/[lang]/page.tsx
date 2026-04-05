@@ -42,9 +42,9 @@ export default function Home() {
       <Section id="about" aria-labelledby="about-heading" tabIndex={-1}>
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Left column: Profile photo */}
-          <div className="flex justify-center lg:justify-start">
+          <div className="flex items-center justify-center">
             <Image
-              src="/placeholder.svg"
+              src="/avatar.webp"
               alt="Emanuel Pereyra, Software Engineer"
               width={200}
               height={200}

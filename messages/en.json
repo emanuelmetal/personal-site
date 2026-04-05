@@ -192,17 +192,17 @@
           "Responsive Design"
         ],
         "5to10": ["Next.js", "Vue.js", "Tailwind CSS", "Webpack"],
-        "2to5": ["React Server Components", "Astro", "Vite"]
+        "2to5": ["React Server Components", "ChakraUI", "Vite"]
       },
       "backend": {
         "10plus": ["Node.js", "Express", "REST APIs", "PostgreSQL"],
-        "5to10": ["GraphQL", "MongoDB", "Redis", "Microservices"],
-        "2to5": ["Prisma", "tRPC", "Serverless Functions"]
+        "5to10": ["GraphQL", "MongoDB", "Redis", "Microservices", "Groovy"],
+        "2to5": ["Serverless Functions", "Java", "Python"]
       },
       "cloud": {
         "10plus": ["Git", "CI/CD", "Linux", "Docker"],
-        "5to10": ["AWS", "Kubernetes", "Terraform", "GitHub Actions"],
-        "2to5": ["Vercel", "Railway", "Cloudflare Workers"]
+        "5to10": ["AWS", "GitHub Actions"],
+        "2to5": ["Vercel"]
       },
       "tools": {
         "10plus": [
@@ -212,7 +212,7 @@
           "Technical Documentation"
         ],
         "5to10": ["Jest", "ESLint", "Storybook", "Monorepos"],
-        "2to5": ["Playwright", "Vitest", "Turborepo"]
+        "2to5": ["Playwright", "Vitest", "Turborepo", "React Testing Library"]
       }
     }
   },
