@@ -33,8 +33,8 @@
   },
   "about": {
     "heading": "About Me",
-    "bio": "Senior Software Engineer with over 19 years of experience designing and building scalable, high-quality software solutions. Specialized in full-stack web development with deep expertise in JavaScript/TypeScript ecosystems, cloud infrastructure, and engineering best practices.",
-    "description": "Passionate about clean architecture, performance optimization, and mentoring engineering teams. Currently focused on modern React/Next.js applications and cloud-native solutions."
+    "bio": "AI-powered Senior Software Engineer with 18+ years of experience building scalable web applications and leading development teams. Specialized in React, NextJS, and modern JavaScript ecosystems. I have experience working on complex and massive products, full-stack work, and the most demanding pixel-perfect design systems. Extensive use of AI tools such as Claude Code and GitHub Copilot to accelerate the product development process without losing sight of what's being built.",
+    "description": "Passionate about clean architecture, performance optimization, and mentoring engineering teams. Currently focused on modern React/Next.js applications and AI-native solutions."
   },
   "experience": {
     "heading": "Work Experience",
